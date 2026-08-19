@@ -715,6 +715,359 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bspd:TLV1704"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 7.62 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TLV1704_0_1"
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 -5.08) (xy 10.16 0) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV1704_1_1"
+				(text "TLV1704"
+					(at 9.906 -4.064 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV1704_2_1"
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV1704_3_1"
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV1704_4_1"
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bspd:TLV3202AIDGKR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1314,6 +1667,16 @@
 			)
 		)
 		(uuid "4f15b0b7-812d-43ba-a2ce-0c8fb803f95d")
+	)
+	(text "Fault: HIGH\n"
+		(exclude_from_sim no)
+		(at 140.208 145.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98c0d31d-0c9e-4f30-a99d-2122f8d77d49")
 	)
 	(text "Timing Comparators"
 		(exclude_from_sim no)
@@ -2171,6 +2534,30 @@
 			)
 		)
 	)
+	(global_label "100ms_REF"
+		(shape input)
+		(at 181.61 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e35b000-79bf-43c8-90b2-d0e685ac085d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.7997 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "TPS2_RAW"
 		(shape input)
 		(at 27.94 46.99 180)
@@ -2184,6 +2571,30 @@
 		(uuid "a50b5388-787c-4905-b854-2f0d19691adf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 15.5206 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "100ms_REF"
+		(shape input)
+		(at 182.88 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf31c9be-5342-475c-aa2a-a1e0edead3bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.0697 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2441,6 +2852,122 @@
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "U3")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bspd:TLV1704")
+		(at 82.55 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d1df395-07d4-43b4-a06f-287dd7896bc1")
+		(property "Reference" "U5"
+			(at 100.33 92.6398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 82.55 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "45249ab8-72e3-400c-bba4-46d387522468")
+		)
+		(pin "1"
+			(uuid "d317dfc5-cb28-434d-8654-891a8b77b513")
+		)
+		(pin "10"
+			(uuid "34c240d3-430b-49aa-921a-58ad65edcdf4")
+		)
+		(pin "14"
+			(uuid "9322fc03-d367-4d81-88a1-dc45ff62c942")
+		)
+		(pin "5"
+			(uuid "b15bcbc8-8a64-4d57-b4e8-d500b035fb1a")
+		)
+		(pin "2"
+			(uuid "5517a3de-672e-4afd-93b5-1a99295ebf8e")
+		)
+		(pin "13"
+			(uuid "833acfb4-d49b-4d6c-acd1-83e5cf1c1268")
+		)
+		(pin "11"
+			(uuid "1243e2fb-9bec-4273-aeb2-d9f8d3cb9ae3")
+		)
+		(pin "8"
+			(uuid "b4ad0209-b200-48d8-9828-2702cb004bd7")
+		)
+		(pin "3"
+			(uuid "288eae6b-d2f4-44a9-9ae4-0e68f5e29dc6")
+		)
+		(pin "7"
+			(uuid "4a73cda6-f5df-4557-ae93-29542efb890e")
+		)
+		(pin "4"
+			(uuid "0ecedc63-fd41-43a6-850e-2ac750bb4ce6")
+		)
+		(pin "9"
+			(uuid "8acd42fd-5b1f-4536-a534-36be787b20e4")
+		)
+		(pin "6"
+			(uuid "c39d3df0-542f-420c-9554-405baebf80cc")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U5")
+					(unit 1)
 				)
 			)
 		)
@@ -6233,7 +6760,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "e220d8e0-31a2-406d-98b8-f4cc94794cbe")
+			(uuid "e220d8e0-31a2-406d-98b8-f4cc94794cbf")
 		)
 		(pin "5"
 			(uuid "1f3db30b-a803-47c4-8561-dc753f4ea9b1")
@@ -6242,19 +6769,19 @@
 			(uuid "c747d3b7-9b6d-4711-8f41-d3b5e345eb65")
 		)
 		(pin "8"
-			(uuid "f6ca7c25-1232-413d-8fe8-634c46e6b278")
+			(uuid "f6ca7c25-1232-413d-8fe8-634c46e6b279")
 		)
 		(pin "1"
-			(uuid "887d256e-adaf-46a1-93b8-15f2c15d0615")
+			(uuid "887d256e-adaf-46a1-93b8-15f2c15d0616")
 		)
 		(pin "3"
-			(uuid "b5c4e3d3-1749-4177-bb90-3b5fe6e78733")
+			(uuid "b5c4e3d3-1749-4177-bb90-3b5fe6e78734")
 		)
 		(pin "7"
 			(uuid "8b5d8416-20a9-4694-ac3c-1dd1464dd901")
 		)
 		(pin "2"
-			(uuid "fb23fb62-038a-4a62-adb0-952e079d4e37")
+			(uuid "fb23fb62-038a-4a62-adb0-952e079d4e38")
 		)
 		(instances
 			(project "bspd"
@@ -6333,10 +6860,10 @@
 			(uuid "4c8806d2-27a0-4d4b-aa30-51a43a06641e")
 		)
 		(pin "5"
-			(uuid "1f3db30b-a803-47c4-8561-dc753f4ea9ae")
+			(uuid "1f3db30b-a803-47c4-8561-dc753f4ea9b2")
 		)
 		(pin "6"
-			(uuid "c747d3b7-9b6d-4711-8f41-d3b5e345eb62")
+			(uuid "c747d3b7-9b6d-4711-8f41-d3b5e345eb66")
 		)
 		(pin "8"
 			(uuid "31c1c180-c005-4bf8-be01-686dd3b2bc29")
@@ -6348,7 +6875,7 @@
 			(uuid "35c302a6-965c-4ded-a2ce-7ac69f70bb76")
 		)
 		(pin "7"
-			(uuid "8b5d8416-20a9-4694-ac3c-1dd1464dd8fe")
+			(uuid "8b5d8416-20a9-4694-ac3c-1dd1464dd902")
 		)
 		(pin "2"
 			(uuid "c2fbe00e-d4c5-41eb-8228-ee0efdde0855")
