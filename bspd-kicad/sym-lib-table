@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "bspd") (type "KiCad") (uri "C:/Users/chith/Desktop/bspd/bspd-library/bspd.kicad_sym") (options "") (descr ""))
+	(lib (name "bspd") (type "KiCad") (uri "C:/Users/chith/Desktop/bspd/bspd-library/symbol") (options "") (descr ""))
 )
