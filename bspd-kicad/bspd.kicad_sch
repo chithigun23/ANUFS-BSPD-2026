@@ -5,6 +5,399 @@
 	(uuid "e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de")
 	(paper "A3")
 	(lib_symbols
+		(symbol "74xx:74HC74"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HC74"
+				(at -7.62 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual D Flip-flop, Set & Reset"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TTL DFF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74HC74_1_0"
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~{S}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC74_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74HC74_2_0"
+				(pin output line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~{S}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC74_2_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74HC74_3_0"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC74_3_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x03_Counter_Clockwise"
 			(pin_names
 				(offset 1.016)
@@ -1844,322 +2237,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bspd:SN74LVC2G00DCTR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SN74LVC2G00DCTR"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "bspd:SN74LVC2G00DCTR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc2g00"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Dual 2-input NAND gate, 1.65V-5.5V, SSOP-8 (DCT)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SN74LVC2G00DCTR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C2682112"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NAND dual gate logic LVC 74LVC2G00"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SSOP*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SN74LVC2G00DCTR_1_1"
-				(arc
-					(start 0 6.35)
-					(mid 6.3223 0)
-					(end 0 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy -6.35 6.35) (xy -6.35 -6.35) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 6.35)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 6.35)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -12.7 90)
-					(length 6.35)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 0 180)
-					(length 6.35)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 12.7 270)
-					(length 6.35)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SN74LVC2G00DCTR_2_1"
-				(arc
-					(start 0 6.35)
-					(mid 6.3223 0)
-					(end 0 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy -6.35 6.35) (xy -6.35 -6.35) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 12.7 0 180)
-					(length 6.35)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 6.35)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 6.35)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "bspd:SN74LVC3G14DCUR"
+		(symbol "bspd:SN74LVC2G14DBVR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2178,7 +2256,7 @@
 					)
 				)
 			)
-			(property "Value" "SN74LVC3G14DCUR"
+			(property "Value" "SN74LVC2G14DBVR"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2188,7 +2266,7 @@
 					)
 				)
 			)
-			(property "Footprint" "bspd:SN74LVC3G14DCUR"
+			(property "Footprint" "bspd:SN74LVC2G14DBVR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2199,7 +2277,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc3g14"
+			(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc2g14"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2210,7 +2288,7 @@
 					)
 				)
 			)
-			(property "Description" "Triple Schmitt-trigger inverter, 1.65V-5.5V, VSSOP-8 (DCU)"
+			(property "Description" "Dual Schmitt-trigger inverter, 1.65V-5.5V, SOT-23-6 (DBV)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2232,7 +2310,7 @@
 					)
 				)
 			)
-			(property "MPN" "SN74LVC3G14DCUR"
+			(property "MPN" "SN74LVC2G14DBVR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2243,7 +2321,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C98856"
+			(property "LCSC Part" "C12401"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2254,7 +2332,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Schmitt trigger inverter triple gate logic LVC 74LVC3G14"
+			(property "ki_keywords" "Schmitt trigger inverter dual gate logic LVC 74LVC2G14"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2265,7 +2343,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "VSSOP*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2276,7 +2354,7 @@
 					)
 				)
 			)
-			(symbol "SN74LVC3G14DCUR_1_1"
+			(symbol "SN74LVC2G14DBVR_1_1"
 				(polyline
 					(pts
 						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
@@ -2341,25 +2419,7 @@
 							)
 						)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 0 180)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2377,7 +2437,25 @@
 							)
 						)
 					)
-					(number "8"
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2386,7 +2464,7 @@
 					)
 				)
 			)
-			(symbol "SN74LVC3G14DCUR_2_1"
+			(symbol "SN74LVC2G14DBVR_2_1"
 				(polyline
 					(pts
 						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
@@ -2451,81 +2529,7 @@
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SN74LVC3G14DCUR_3_1"
-				(polyline
-					(pts
-						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin output inverted
-					(at 12.7 0 180)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3320,8 +3324,8 @@
 		)
 	)
 	(rectangle
-		(start 111.76 208.28)
-		(end 154.94 265.43)
+		(start 114.3 208.28)
+		(end 154.94 241.3)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3404,8 +3408,8 @@
 		(uuid "8c0aa4a1-66bf-4888-b133-a31ba3fdf777")
 	)
 	(rectangle
-		(start 26.67 238.76)
-		(end 107.95 269.24)
+		(start 27.94 208.28)
+		(end 110.49 241.3)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3417,7 +3421,7 @@
 	)
 	(rectangle
 		(start 26.67 204.47)
-		(end 161.29 270.51)
+		(end 161.29 245.11)
 		(stroke
 			(width 0)
 			(type default)
@@ -3487,7 +3491,7 @@
 	)
 	(text "Single Pulsed Power on Reset"
 		(exclude_from_sim no)
-		(at 72.136 267.462 0)
+		(at 91.694 239.268 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3505,6 +3509,16 @@
 			)
 		)
 		(uuid "103c41f0-667f-4a22-a9c4-315eccadd7a9")
+	)
+	(text "~S"
+		(exclude_from_sim no)
+		(at 131.826 212.598 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "10809137-0478-46e9-8144-3dd934220816")
 	)
 	(text "Out of Range: LOW\nNormally: HIGH"
 		(exclude_from_sim no)
@@ -3536,15 +3550,15 @@
 		)
 		(uuid "1ced54b2-08f7-4619-8920-34f5a81b219c")
 	)
-	(text "Inverting to FAULT HIGH logic"
+	(text "TODO:\nMeasure Shutdown circuit current, its probs ~200mA\nCheck if BSPD currently uses Chassis GND or Signal GND\nIf Chassis, impliment comparator"
 		(exclude_from_sim no)
-		(at 95.758 213.106 0)
+		(at -42.418 24.892 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "29fbb16b-61a4-4396-8038-34bdfc278d66")
+		(uuid "20468842-99cc-4e75-bead-6fe848c60582")
 	)
 	(text "Fixed Voltage References\n"
 		(exclude_from_sim no)
@@ -3598,7 +3612,7 @@
 	)
 	(text "Latching Circuit"
 		(exclude_from_sim no)
-		(at 38.354 207.518 0)
+		(at 35.814 206.502 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3606,9 +3620,9 @@
 		)
 		(uuid "64c7405e-e9b1-4616-be56-4ba4c576f3e0")
 	)
-	(text "R"
+	(text "~R"
 		(exclude_from_sim no)
-		(at 109.982 259.08 0)
+		(at 112.522 225.044 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -3616,9 +3630,9 @@
 		)
 		(uuid "6688cd87-7f5a-4cbf-9edc-c5a14ee4cd85")
 	)
-	(text "SR Latch, Cross Coupled NAND"
+	(text "SR Latch"
 		(exclude_from_sim no)
-		(at 131.826 263.652 0)
+		(at 119.38 212.852 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3645,16 +3659,6 @@
 			)
 		)
 		(uuid "6d4c90dc-b5ba-437f-ab31-9954723e3b83")
-	)
-	(text "S"
-		(exclude_from_sim no)
-		(at 108.712 222.758 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-		)
-		(uuid "73b61a57-250b-4f65-b0ba-61474545f6fc")
 	)
 	(text "OR\n"
 		(exclude_from_sim no)
@@ -3873,12 +3877,6 @@
 		(uuid "06ed80c8-3dd1-4380-80fc-654e6c79bd1a")
 	)
 	(junction
-		(at 142.24 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d7d6ce8-6422-4b40-ab6c-f75383d7978b")
-	)
-	(junction
 		(at 341.63 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3939,6 +3937,12 @@
 		(uuid "57ac4f3a-0e27-459e-a0e1-73e9b7424181")
 	)
 	(junction
+		(at 124.46 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6491c7ea-b7b6-4b25-814c-391a2387134b")
+	)
+	(junction
 		(at 138.43 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3951,7 +3955,7 @@
 		(uuid "68c98723-07df-499d-bbde-4b6c54a6ac01")
 	)
 	(junction
-		(at 31.75 250.19)
+		(at 33.02 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73c38425-2282-49df-b640-a6c2187be47f")
@@ -4047,10 +4051,14 @@
 		(uuid "fb97248c-170f-466a-a6bd-4b7cde7c9bd9")
 	)
 	(junction
-		(at 46.99 256.54)
+		(at 48.26 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffb3ca1e-c73e-4074-99cc-cc61781b1ce0")
+	)
+	(no_connect
+		(at 140.97 228.6)
+		(uuid "6a3432c5-f391-4b06-9f0a-14b09597962e")
 	)
 	(wire
 		(pts
@@ -4061,6 +4069,16 @@
 			(type default)
 		)
 		(uuid "02d6e5ff-8011-4858-a11e-e5bdc4232ec4")
+	)
+	(wire
+		(pts
+			(xy 124.46 226.06) (xy 124.46 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0708fa67-8f57-41bc-9f34-193e90335ae7")
 	)
 	(wire
 		(pts
@@ -4144,7 +4162,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 256.54) (xy 46.99 257.81)
+			(xy 48.26 227.33) (xy 48.26 228.6)
 		)
 		(stroke
 			(width 0)
@@ -4244,7 +4262,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 256.54) (xy 82.55 256.54)
+			(xy 81.28 227.33) (xy 83.82 227.33)
 		)
 		(stroke
 			(width 0)
@@ -4314,7 +4332,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 250.19) (xy 46.99 250.19)
+			(xy 44.45 220.98) (xy 48.26 220.98)
 		)
 		(stroke
 			(width 0)
@@ -4394,16 +4412,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 251.46) (xy 115.57 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3572b1a6-fea6-4d04-a87e-e0b891ff93c5")
-	)
-	(wire
-		(pts
 			(xy 223.52 110.49) (xy 223.52 118.11)
 		)
 		(stroke
@@ -4421,6 +4429,16 @@
 			(type default)
 		)
 		(uuid "385f91ff-10eb-474e-b5cc-0cfba61d32f5")
+	)
+	(wire
+		(pts
+			(xy 124.46 227.33) (xy 124.46 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390a46ad-ae1e-4717-b9eb-3c03de825353")
 	)
 	(wire
 		(pts
@@ -4474,23 +4492,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 250.19) (xy 35.56 250.19)
+			(xy 33.02 220.98) (xy 36.83 220.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "47cfc48b-4061-46e4-84b4-e22e8c745bc1")
-	)
-	(wire
-		(pts
-			(xy 115.57 229.87) (xy 113.03 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49b688fd-38b9-4e6c-9d33-708a6a2335ee")
 	)
 	(wire
 		(pts
@@ -4554,13 +4562,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 229.87) (xy 113.03 243.84)
+			(xy 111.76 227.33) (xy 118.11 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "583cd383-0a6d-46b6-a78e-e3ea1061ae1f")
+		(uuid "54514f8f-691a-4f32-acc8-d0d5d2e1c9ca")
 	)
 	(wire
 		(pts
@@ -4601,26 +4609,6 @@
 			(type default)
 		)
 		(uuid "5b20df6e-d065-4178-bb34-66a0e96973db")
-	)
-	(wire
-		(pts
-			(xy 144.78 254) (xy 140.97 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e0fcc68-5f70-4b81-8012-a89c1f12c1af")
-	)
-	(wire
-		(pts
-			(xy 142.24 227.33) (xy 162.56 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e762e9d-b1fb-4b11-b602-5a5d5722cbda")
 	)
 	(wire
 		(pts
@@ -4674,16 +4662,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 227.33) (xy 140.97 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aefc79a-f659-4254-a822-d2011457376a")
-	)
-	(wire
-		(pts
 			(xy 140.97 181.61) (xy 138.43 181.61)
 		)
 		(stroke
@@ -4724,6 +4702,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 212.09) (xy 133.35 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73bac2f9-171f-40d2-9e6d-abd814419978")
+	)
+	(wire
+		(pts
 			(xy 83.82 109.22) (xy 93.98 109.22)
 		)
 		(stroke
@@ -4731,6 +4719,16 @@
 			(type default)
 		)
 		(uuid "73c0c3fe-dfbe-4234-8648-bfb140509aaf")
+	)
+	(wire
+		(pts
+			(xy 124.46 223.52) (xy 125.73 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cfb8eb-0ae0-411c-bdbc-de7db52b8f0a")
 	)
 	(wire
 		(pts
@@ -4754,7 +4752,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 246.38) (xy 31.75 250.19)
+			(xy 33.02 217.17) (xy 33.02 220.98)
 		)
 		(stroke
 			(width 0)
@@ -4764,23 +4762,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 256.54) (xy 46.99 256.54)
+			(xy 44.45 227.33) (xy 48.26 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7f02af99-ad16-43c5-893f-c16bf6888f6d")
-	)
-	(wire
-		(pts
-			(xy 113.03 246.38) (xy 113.03 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fd702b5-0d2e-437c-be6a-93378c7338d3")
 	)
 	(wire
 		(pts
@@ -4791,6 +4779,16 @@
 			(type default)
 		)
 		(uuid "80303c31-142e-4e0a-8004-c46bd1f449aa")
+	)
+	(wire
+		(pts
+			(xy 118.11 237.49) (xy 133.35 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c84adc-c560-4b4d-8f04-5543502d294a")
 	)
 	(wire
 		(pts
@@ -4834,13 +4832,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 243.84) (xy 144.78 243.84)
+			(xy 151.13 223.52) (xy 151.13 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97b71c2c-0703-4e79-b7ec-ce2007570bff")
+		(uuid "9ddaef6d-f07a-4e48-8f2c-d65c2f73ee38")
 	)
 	(wire
 		(pts
@@ -4864,16 +4862,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 224.79) (xy 115.57 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a083e7f1-696d-4340-adb0-f9a812f3a9ac")
-	)
-	(wire
-		(pts
 			(xy 138.43 110.49) (xy 138.43 119.38)
 		)
 		(stroke
@@ -4881,6 +4869,16 @@
 			(type default)
 		)
 		(uuid "a4b064b3-d414-4f3d-9118-5112599acafb")
+	)
+	(wire
+		(pts
+			(xy 118.11 227.33) (xy 118.11 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61be5d4-dfc4-42f9-9a0a-e9668d664b3b")
 	)
 	(wire
 		(pts
@@ -4894,16 +4892,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 256.54) (xy 115.57 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af3fe840-c3e8-41f9-bb5f-f5c8c1891e78")
-	)
-	(wire
-		(pts
 			(xy 320.04 106.68) (xy 345.44 106.68)
 		)
 		(stroke
@@ -4911,6 +4899,16 @@
 			(type default)
 		)
 		(uuid "af9cac73-538b-4a1d-91bd-5abaddc6d737")
+	)
+	(wire
+		(pts
+			(xy 140.97 223.52) (xy 151.13 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc36225-1a9f-4b28-916a-3aaf2b125bdb")
 	)
 	(wire
 		(pts
@@ -4924,7 +4922,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 250.19) (xy 31.75 256.54)
+			(xy 33.02 220.98) (xy 33.02 227.33)
 		)
 		(stroke
 			(width 0)
@@ -4961,6 +4959,16 @@
 			(type default)
 		)
 		(uuid "b2baddba-d265-442a-b396-951a4817f13c")
+	)
+	(wire
+		(pts
+			(xy 135.89 212.09) (xy 133.35 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4998c4f-0e58-4e70-9fb4-358cdd20ffa5")
 	)
 	(wire
 		(pts
@@ -5094,13 +5102,23 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 256.54) (xy 35.56 256.54)
+			(xy 33.02 227.33) (xy 36.83 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c6d94589-14b9-4958-8400-5facce95b776")
+	)
+	(wire
+		(pts
+			(xy 133.35 237.49) (xy 133.35 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ce1b10-4b20-4c9b-bb86-9f2a97a8476e")
 	)
 	(wire
 		(pts
@@ -5131,26 +5149,6 @@
 			(type default)
 		)
 		(uuid "cf7891ff-f4a0-4c4c-b6e5-3086e0ec8003")
-	)
-	(wire
-		(pts
-			(xy 142.24 246.38) (xy 113.03 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0e9663a-9445-4270-b0ff-b17b20f348fa")
-	)
-	(wire
-		(pts
-			(xy 142.24 227.33) (xy 142.24 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d16b5caa-9874-4673-8e2d-ead94496c579")
 	)
 	(wire
 		(pts
@@ -5194,6 +5192,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 227.33) (xy 162.56 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7e3bbe-c23d-409b-b22a-049dd9d01425")
+	)
+	(wire
+		(pts
 			(xy 138.43 171.45) (xy 138.43 172.72)
 		)
 		(stroke
@@ -5204,7 +5212,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 256.54) (xy 52.07 256.54)
+			(xy 48.26 227.33) (xy 53.34 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5261,16 +5269,6 @@
 			(type default)
 		)
 		(uuid "e830a25c-15e1-4cc2-8509-6790b36bb333")
-	)
-	(wire
-		(pts
-			(xy 144.78 243.84) (xy 144.78 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e89925d5-0f2f-498a-a7fc-28da233e2168")
 	)
 	(wire
 		(pts
@@ -5344,7 +5342,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 250.19) (xy 46.99 256.54)
+			(xy 124.46 226.06) (xy 125.73 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00a7d81-cc60-4a39-8ee3-0207ae4f6f2b")
+	)
+	(wire
+		(pts
+			(xy 48.26 220.98) (xy 48.26 227.33)
 		)
 		(stroke
 			(width 0)
@@ -12480,6 +12488,30 @@
 			)
 		)
 	)
+	(global_label "FAULT"
+		(shape input)
+		(at 135.89 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b9182ef-224a-4bd2-8b11-e00f1db4fd48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.3786 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "TPS1_RAW"
 		(shape input)
 		(at 43.18 30.48 0)
@@ -12685,30 +12717,6 @@
 		(uuid "af9e93cd-003b-44cf-b434-504a9e40cde8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.3753 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "FAULT"
-		(shape input)
-		(at 58.42 224.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb5fb4c0-f2ee-4b1f-ad05-dc1761cb0b45")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.9314 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13083,137 +13091,6 @@
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "#PWR03")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bspd:SN74LVC3G14DCUR")
-		(at 67.31 256.54 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "015fddcf-ac50-472f-a934-76a8faaefb63")
-		(property "Reference" "U6"
-			(at 66.04 245.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC3G14DCUR"
-			(at 66.04 247.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:SN74LVC3G14DCUR"
-			(at 67.31 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc3g14"
-			(at 67.31 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Triple Schmitt-trigger inverter, 1.65V-5.5V, VSSOP-8 (DCU)"
-			(at 67.31 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 67.31 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC3G14DCUR"
-			(at 67.31 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98856"
-			(at 67.31 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "de4d649a-5ec9-41d3-9566-c9eaa06ec818")
-		)
-		(pin "2"
-			(uuid "3cbb54ad-80bb-4d32-8633-db2dd9e93bd6")
-		)
-		(pin "5"
-			(uuid "41da92d6-cbc9-4349-851d-fffcd9f5bc7c")
-		)
-		(pin "1"
-			(uuid "a3762f0c-4bb7-4f1c-828c-7f595d5d3f90")
-		)
-		(pin "7"
-			(uuid "67f8d83e-0bd2-4453-b512-d76ba944dd65")
-		)
-		(pin "6"
-			(uuid "09dcba6e-134e-4b05-85e7-13acb9ee07ae")
-		)
-		(pin "4"
-			(uuid "cd3fc576-46ae-44ef-9ef7-ee392d27cff0")
-		)
-		(pin "3"
-			(uuid "9a6dcfc3-caeb-4aa3-8fe3-f14d02944b97")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U6")
-					(unit 2)
 				)
 			)
 		)
@@ -13739,7 +13616,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 68.58 234.95 0)
+		(at 63.5 237.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13750,7 +13627,7 @@
 		(fields_autoplaced yes)
 		(uuid "08f14186-5582-4269-a432-943222329afb")
 		(property "Reference" "#PWR051"
-			(at 68.58 241.3 0)
+			(at 63.5 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13761,7 +13638,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 68.58 240.03 0)
+			(at 63.5 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13772,7 +13649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 234.95 0)
+			(at 63.5 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13783,7 +13660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 234.95 0)
+			(at 63.5 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13794,7 +13671,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 68.58 234.95 0)
+			(at 63.5 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14560,7 +14437,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 46.99 261.62 0)
+		(at 48.26 232.41 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14571,7 +14448,7 @@
 		(dnp no)
 		(uuid "1bd885e9-fa52-4a50-928b-4cd8535d53c0")
 		(property "Reference" "C10"
-			(at 46.99 259.334 0)
+			(at 52.578 230.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14581,8 +14458,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "xuF"
-			(at 46.99 263.652 0)
+		(property "Value" "2.2uF"
+			(at 53.848 234.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14593,7 +14470,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 46.0248 265.43 0)
+			(at 47.2948 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14604,7 +14481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 261.62 0)
+			(at 48.26 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14615,7 +14492,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 46.99 261.62 0)
+			(at 48.26 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15510,137 +15387,6 @@
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "#PWR08")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bspd:SN74LVC2G00DCTR")
-		(at 128.27 254 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30a992fc-56fc-499c-8d5a-7f3437517f0e")
-		(property "Reference" "U7"
-			(at 128.2561 242.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC2G00DCTR"
-			(at 128.2561 245.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:SN74LVC2G00DCTR"
-			(at 128.27 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc2g00"
-			(at 128.27 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 2-input NAND gate, 1.65V-5.5V, SSOP-8 (DCT)"
-			(at 128.27 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 128.27 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC2G00DCTR"
-			(at 128.27 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2682112"
-			(at 128.27 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe04a8d2-82c1-4a33-a45d-1aafc25ec9a9")
-		)
-		(pin "7"
-			(uuid "8c55839a-704b-4b65-a9d8-42515262072e")
-		)
-		(pin "2"
-			(uuid "173e3d6d-5955-44fe-a573-03800ee514db")
-		)
-		(pin "4"
-			(uuid "49b39c3e-7e8e-4f32-afa4-82b883454c1a")
-		)
-		(pin "8"
-			(uuid "0a5686f7-be86-4e6e-aa71-078f371ce699")
-		)
-		(pin "3"
-			(uuid "35ac06a8-3491-4cea-8e24-0c0afebc698a")
-		)
-		(pin "5"
-			(uuid "2489b2b8-b78b-4aee-97dc-9a8338e954c3")
-		)
-		(pin "6"
-			(uuid "87a33d68-320d-446f-b8e8-e9b5a9299c23")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U7")
-					(unit 2)
 				)
 			)
 		)
@@ -17104,6 +16850,124 @@
 			(project "bspd"
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC74")
+		(at 133.35 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "580f599e-4446-4f23-99d0-7f67bbc98f06")
+		(property "Reference" "U8"
+			(at 135.4933 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC74"
+			(at 135.4933 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+			(at 133.35 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
+			(at 133.35 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 133.35 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "da20fbec-3d3a-4ec1-bd36-3f9b164b1e50")
+		)
+		(pin "2"
+			(uuid "a2c637d7-77a0-4f6a-afc2-70553f063498")
+		)
+		(pin "8"
+			(uuid "29fa421e-323b-4668-bafa-91606770bc3f")
+		)
+		(pin "7"
+			(uuid "c1c6b2f7-c4ee-49f6-94e2-7529053eacc9")
+		)
+		(pin "14"
+			(uuid "b47b8b05-dad6-4bfa-a891-e43fc5a08e86")
+		)
+		(pin "13"
+			(uuid "7d37cd96-87b5-4f45-bd19-38eeb8ae755e")
+		)
+		(pin "3"
+			(uuid "286e7df3-7a7f-40b1-816e-0cc76c749dd7")
+		)
+		(pin "9"
+			(uuid "db6768c5-cf32-498a-929b-59ea1bcb446a")
+		)
+		(pin "1"
+			(uuid "4b093229-caac-4244-bad0-2f04066c6ecd")
+		)
+		(pin "4"
+			(uuid "ca71a79d-ca83-4b5d-8ecd-50bebb7a9a48")
+		)
+		(pin "5"
+			(uuid "52ff90c4-5d92-4d06-b85d-890553a3eb5f")
+		)
+		(pin "10"
+			(uuid "75649946-db5e-48ef-94b3-4cfd8029e326")
+		)
+		(pin "11"
+			(uuid "e9fd480a-1e56-4632-8bc7-25ed21a54b5c")
+		)
+		(pin "12"
+			(uuid "651fcb16-3b84-4fe3-b85b-2536919caf94")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -18661,139 +18525,8 @@
 		)
 	)
 	(symbol
-		(lib_id "bspd:SN74LVC3G14DCUR")
-		(at 97.79 256.54 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87400268-3c44-48f4-8370-4b939b0d1ace")
-		(property "Reference" "U6"
-			(at 96.52 245.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC3G14DCUR"
-			(at 96.52 247.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:SN74LVC3G14DCUR"
-			(at 97.79 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc3g14"
-			(at 97.79 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Triple Schmitt-trigger inverter, 1.65V-5.5V, VSSOP-8 (DCU)"
-			(at 97.79 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 97.79 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC3G14DCUR"
-			(at 97.79 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98856"
-			(at 97.79 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "de4d649a-5ec9-41d3-9566-c9eaa06ec819")
-		)
-		(pin "2"
-			(uuid "3cbb54ad-80bb-4d32-8633-db2dd9e93bd7")
-		)
-		(pin "5"
-			(uuid "41da92d6-cbc9-4349-851d-fffcd9f5bc7d")
-		)
-		(pin "1"
-			(uuid "a3762f0c-4bb7-4f1c-828c-7f595d5d3f91")
-		)
-		(pin "7"
-			(uuid "67f8d83e-0bd2-4453-b512-d76ba944dd66")
-		)
-		(pin "6"
-			(uuid "09dcba6e-134e-4b05-85e7-13acb9ee07af")
-		)
-		(pin "4"
-			(uuid "cd3fc576-46ae-44ef-9ef7-ee392d27cff1")
-		)
-		(pin "3"
-			(uuid "9a6dcfc3-caeb-4aa3-8fe3-f14d02944b98")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U6")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 68.58 214.63 0)
+		(at 63.5 217.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18803,7 +18536,7 @@
 		(dnp no)
 		(uuid "8bc68b40-d726-4e7e-9881-d10b2140d618")
 		(property "Reference" "#PWR048"
-			(at 68.58 218.44 0)
+			(at 63.5 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18814,7 +18547,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 68.58 211.074 0)
+			(at 63.5 213.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18824,7 +18557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 214.63 0)
+			(at 63.5 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18835,7 +18568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 214.63 0)
+			(at 63.5 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18846,7 +18579,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 68.58 214.63 0)
+			(at 63.5 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18979,85 +18712,6 @@
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "U4")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 125.73 240.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f9a911c-fc24-4e4e-be00-93b4c11076cd")
-		(property "Reference" "#PWR052"
-			(at 125.73 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Earth"
-			(at 125.73 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 125.73 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c651cc5-d6d5-4e51-be97-6dd6d391834e")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "#PWR052")
-					(unit 1)
 				)
 			)
 		)
@@ -19301,137 +18955,6 @@
 			(project "bspd"
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bspd:SN74LVC2G00DCTR")
-		(at 128.27 227.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "925345b0-3bcd-45db-9600-114cdd417632")
-		(property "Reference" "U7"
-			(at 144.78 220.9098 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC2G00DCTR"
-			(at 144.78 223.4498 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:SN74LVC2G00DCTR"
-			(at 128.27 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc2g00"
-			(at 128.27 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 2-input NAND gate, 1.65V-5.5V, SSOP-8 (DCT)"
-			(at 128.27 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 128.27 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC2G00DCTR"
-			(at 128.27 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2682112"
-			(at 128.27 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe04a8d2-82c1-4a33-a45d-1aafc25ec9aa")
-		)
-		(pin "7"
-			(uuid "8c55839a-704b-4b65-a9d8-42515262072f")
-		)
-		(pin "2"
-			(uuid "173e3d6d-5955-44fe-a573-03800ee514dc")
-		)
-		(pin "4"
-			(uuid "49b39c3e-7e8e-4f32-afa4-82b883454c1b")
-		)
-		(pin "8"
-			(uuid "0a5686f7-be86-4e6e-aa71-078f371ce69a")
-		)
-		(pin "3"
-			(uuid "35ac06a8-3491-4cea-8e24-0c0afebc698b")
-		)
-		(pin "5"
-			(uuid "2489b2b8-b78b-4aee-97dc-9a8338e954c4")
-		)
-		(pin "6"
-			(uuid "87a33d68-320d-446f-b8e8-e9b5a9299c24")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -20070,8 +19593,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 125.73 214.63 0)
+		(lib_id "power:Earth")
+		(at 124.46 227.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20079,9 +19602,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "aae51cad-9865-489a-9752-162939a18bd7")
+		(fields_autoplaced yes)
+		(uuid "a7e7fe0b-9e30-466d-bbeb-da4342e18a2a")
 		(property "Reference" "#PWR049"
-			(at 125.73 218.44 0)
+			(at 124.46 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20091,8 +19615,9 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 125.73 211.074 0)
+		(property "Value" "Earth"
+			(at 124.46 232.41 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20102,7 +19627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 214.63 0)
+			(at 124.46 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20113,7 +19638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 214.63 0)
+			(at 124.46 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20123,8 +19648,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 125.73 214.63 0)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 124.46 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20135,7 +19660,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4781dfa7-e2a5-47ec-ad02-ac3a0f8a0cb8")
+			(uuid "a616ae93-700d-4efe-8dcd-0a34a6ec6f2c")
 		)
 		(instances
 			(project "bspd"
@@ -20377,136 +19902,6 @@
 			(project "bspd"
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bspd:SN74LVC3G14DCUR")
-		(at 73.66 224.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b17a4e57-6b73-4092-a234-cedd5286702b")
-		(property "Reference" "U6"
-			(at 81.28 216.916 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC3G14DCUR"
-			(at 81.28 219.456 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:SN74LVC3G14DCUR"
-			(at 73.66 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc3g14"
-			(at 73.66 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Triple Schmitt-trigger inverter, 1.65V-5.5V, VSSOP-8 (DCU)"
-			(at 73.66 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 73.66 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC3G14DCUR"
-			(at 73.66 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98856"
-			(at 73.66 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "de4d649a-5ec9-41d3-9566-c9eaa06ec81a")
-		)
-		(pin "2"
-			(uuid "3cbb54ad-80bb-4d32-8633-db2dd9e93bd8")
-		)
-		(pin "5"
-			(uuid "41da92d6-cbc9-4349-851d-fffcd9f5bc7e")
-		)
-		(pin "1"
-			(uuid "a3762f0c-4bb7-4f1c-828c-7f595d5d3f92")
-		)
-		(pin "7"
-			(uuid "67f8d83e-0bd2-4453-b512-d76ba944dd67")
-		)
-		(pin "6"
-			(uuid "09dcba6e-134e-4b05-85e7-13acb9ee07b0")
-		)
-		(pin "4"
-			(uuid "cd3fc576-46ae-44ef-9ef7-ee392d27cff2")
-		)
-		(pin "3"
-			(uuid "9a6dcfc3-caeb-4aa3-8fe3-f14d02944b99")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -20945,7 +20340,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 46.99 265.43 0)
+		(at 48.26 236.22 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20957,7 +20352,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7a66245-82cd-4ef9-87e4-4655775df66b")
 		(property "Reference" "#PWR054"
-			(at 46.99 271.78 0)
+			(at 48.26 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20968,7 +20363,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 46.99 270.51 0)
+			(at 48.26 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20979,7 +20374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 265.43 0)
+			(at 48.26 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20990,7 +20385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 265.43 0)
+			(at 48.26 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21001,7 +20396,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 46.99 265.43 0)
+			(at 48.26 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21981,6 +21376,130 @@
 		)
 	)
 	(symbol
+		(lib_id "bspd:SN74LVC2G14DBVR")
+		(at 68.58 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb8182a4-7e1f-40ad-90d7-c1486e24b673")
+		(property "Reference" "U7"
+			(at 75.438 219.202 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC2G14DBVR"
+			(at 75.438 221.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bspd:SN74LVC2G14DBVR"
+			(at 68.58 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc2g14"
+			(at 68.58 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Schmitt-trigger inverter, 1.65V-5.5V, SOT-23-6 (DBV)"
+			(at 68.58 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 68.58 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC2G14DBVR"
+			(at 68.58 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C12401"
+			(at 68.58 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a339a045-5d37-4c28-940e-fc3e54860d26")
+		)
+		(pin "1"
+			(uuid "f8a7fab0-4fe0-4fa4-a3a4-2ac37c435aba")
+		)
+		(pin "5"
+			(uuid "34a2ad56-9e2d-4af0-98f8-12cbea4b3d33")
+		)
+		(pin "6"
+			(uuid "5b6aaf93-e16f-4a09-89e7-cc9add86d597")
+		)
+		(pin "3"
+			(uuid "2bf831f4-41da-41de-b09b-eb8e48d6c49e")
+		)
+		(pin "4"
+			(uuid "955349a3-431e-4c8c-9594-6fde659a802d")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
 		(at 35.56 33.02 0)
 		(unit 1)
@@ -22190,7 +21709,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 39.37 250.19 0)
+		(at 40.64 220.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22200,7 +21719,7 @@
 		(dnp no)
 		(uuid "d240d354-c916-4971-8c10-aac202602f75")
 		(property "Reference" "D4"
-			(at 39.37 244.856 0)
+			(at 40.64 215.646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22210,7 +21729,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 39.37 247.396 0)
+			(at 40.64 218.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22220,7 +21739,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 39.37 254.635 0)
+			(at 40.64 225.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22231,7 +21750,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 39.37 250.19 0)
+			(at 40.64 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22242,7 +21761,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 39.37 250.19 0)
+			(at 40.64 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22253,7 +21772,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 39.37 250.19 0)
+			(at 40.64 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22264,7 +21783,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 39.37 250.19 0)
+			(at 40.64 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22567,7 +22086,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 31.75 246.38 0)
+		(at 33.02 217.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22577,7 +22096,7 @@
 		(dnp no)
 		(uuid "dcdb129d-e3c3-45c5-bc33-c20b775fc24f")
 		(property "Reference" "#PWR053"
-			(at 31.75 250.19 0)
+			(at 33.02 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22588,7 +22107,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 31.75 242.824 0)
+			(at 33.02 213.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22598,7 +22117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 246.38 0)
+			(at 33.02 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22609,7 +22128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 246.38 0)
+			(at 33.02 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22620,7 +22139,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 31.75 246.38 0)
+			(at 33.02 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22880,7 +22399,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 39.37 256.54 270)
+		(at 40.64 227.33 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -22891,7 +22410,7 @@
 		(dnp no)
 		(uuid "e6b79613-258f-4cd3-9050-3a79e0bbe557")
 		(property "Reference" "R29"
-			(at 39.37 254.508 90)
+			(at 40.64 225.298 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22900,8 +22419,8 @@
 				)
 			)
 		)
-		(property "Value" "x"
-			(at 38.608 258.826 90)
+		(property "Value" "330k"
+			(at 38.354 229.616 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22912,7 +22431,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 39.116 255.524 90)
+			(at 40.386 226.314 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22923,7 +22442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 256.54 0)
+			(at 40.64 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22934,7 +22453,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 39.37 256.54 0)
+			(at 40.64 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23548,6 +23067,130 @@
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "#PWR045")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bspd:SN74LVC2G14DBVR")
+		(at 99.06 227.33 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "feb1438a-22ee-45c7-b931-706942c2e4b0")
+		(property "Reference" "U7"
+			(at 97.536 217.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC2G14DBVR"
+			(at 100.076 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bspd:SN74LVC2G14DBVR"
+			(at 99.06 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc2g14"
+			(at 99.06 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Schmitt-trigger inverter, 1.65V-5.5V, SOT-23-6 (DBV)"
+			(at 99.06 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 99.06 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC2G14DBVR"
+			(at 99.06 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C12401"
+			(at 99.06 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a339a045-5d37-4c28-940e-fc3e54860d26")
+		)
+		(pin "1"
+			(uuid "f8a7fab0-4fe0-4fa4-a3a4-2ac37c435aba")
+		)
+		(pin "5"
+			(uuid "34a2ad56-9e2d-4af0-98f8-12cbea4b3d33")
+		)
+		(pin "6"
+			(uuid "5b6aaf93-e16f-4a09-89e7-cc9add86d597")
+		)
+		(pin "3"
+			(uuid "2bf831f4-41da-41de-b09b-eb8e48d6c49e")
+		)
+		(pin "4"
+			(uuid "955349a3-431e-4c8c-9594-6fde659a802d")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U7")
+					(unit 2)
 				)
 			)
 		)
