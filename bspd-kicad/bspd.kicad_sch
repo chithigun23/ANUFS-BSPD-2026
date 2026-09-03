@@ -5,6 +5,129 @@
 	(uuid "e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de")
 	(paper "A2")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x03_Counter_Clockwise"
 			(pin_names
 				(offset 1.016)
@@ -5561,6 +5684,12 @@
 		(uuid "ff38190d-0619-46c2-9507-56f3b032486f")
 	)
 	(junction
+		(at 82.55 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "024d9e93-a09f-4b80-8b0f-41d57150032f")
+	)
+	(junction
 		(at 38.1 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5777,6 +5906,12 @@
 		(uuid "8120e08e-fca0-4e0a-8e4a-0f10e311d990")
 	)
 	(junction
+		(at 82.55 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "861e41a4-b587-4c09-88a4-eb4fcefee291")
+	)
+	(junction
 		(at 231.14 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5885,6 +6020,12 @@
 		(uuid "cc48d209-34de-48e8-a1fa-0bd0a5c05fdd")
 	)
 	(junction
+		(at 82.55 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d091e4a4-62a2-46ad-81dc-be44d7d673ec")
+	)
+	(junction
 		(at 256.54 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5977,6 +6118,14 @@
 	(no_connect
 		(at 66.04 125.73)
 		(uuid "09802fef-ca97-408a-829e-36063a4c7bf1")
+	)
+	(no_connect
+		(at 279.4 81.28)
+		(uuid "4d2624ab-358a-42c5-ac94-599b910014a1")
+	)
+	(no_connect
+		(at 279.4 64.77)
+		(uuid "62063825-f0ae-403f-a40b-324f51392c8f")
 	)
 	(no_connect
 		(at 66.04 130.81)
@@ -6294,16 +6443,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 36.83) (xy 101.6 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2400ee32-c264-40c2-b797-f6a4e5aa0855")
-	)
-	(wire
-		(pts
 			(xy 378.46 45.72) (xy 378.46 64.77)
 		)
 		(stroke
@@ -6401,6 +6540,16 @@
 			(type default)
 		)
 		(uuid "28e6f91e-d39b-4307-866e-4e845c8c251a")
+	)
+	(wire
+		(pts
+			(xy 233.68 115.57) (xy 233.68 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e7d4ae-6f77-470a-aa37-14c4f7b3b0b4")
 	)
 	(wire
 		(pts
@@ -6974,6 +7123,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 115.57) (xy 191.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e002452-072b-4f96-9191-595e3ff5ce65")
+	)
+	(wire
+		(pts
 			(xy 224.79 217.17) (xy 224.79 219.71)
 		)
 		(stroke
@@ -7464,6 +7623,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 115.57) (xy 212.09 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b9148b-4c6e-4490-8f6e-e381afacb168")
+	)
+	(wire
+		(pts
 			(xy 231.14 167.64) (xy 231.14 156.21)
 		)
 		(stroke
@@ -7814,6 +7983,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 115.57) (xy 255.27 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52c49e1-3588-4d20-8f47-6fb32f2c919f")
+	)
+	(wire
+		(pts
 			(xy 246.38 44.45) (xy 242.57 44.45)
 		)
 		(stroke
@@ -7874,7 +8053,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 36.83) (xy 91.44 36.83)
+			(xy 82.55 36.83) (xy 101.6 36.83)
 		)
 		(stroke
 			(width 0)
@@ -16531,6 +16710,121 @@
 		)
 	)
 	(symbol
+		(lib_id "bspd:TLV1704")
+		(at 266.7 81.28 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0137391e-a7c5-4fcc-866e-6fce2610cd03")
+		(property "Reference" "U2"
+			(at 271.78 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 266.7 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bspd:TLV1704"
+			(at 266.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "108e86e3-cb5d-4f4f-8646-8c0523c7fc2e")
+		)
+		(pin "4"
+			(uuid "8e41bd49-0b9a-41d5-a71a-782126fe1a11")
+		)
+		(pin "1"
+			(uuid "69e22352-83e4-49ac-9975-0be90b3854ed")
+		)
+		(pin "12"
+			(uuid "98b34fe2-edbd-4019-bb4a-6066aaf28140")
+		)
+		(pin "8"
+			(uuid "c088a217-fa90-4037-b637-3ffe81ea7352")
+		)
+		(pin "14"
+			(uuid "c3692d1f-08fe-493f-b428-c37e06b7705d")
+		)
+		(pin "13"
+			(uuid "815c9154-41e5-4d95-9a7e-7f0cc1826c33")
+		)
+		(pin "9"
+			(uuid "bc6a1b3f-bbfd-41a2-bec6-7b49825ee65a")
+		)
+		(pin "7"
+			(uuid "a9486162-02f3-436c-950a-81da6b46d07c")
+		)
+		(pin "2"
+			(uuid "dc13f1a5-13e2-4fc6-8f60-c5d08e3da74e")
+		)
+		(pin "10"
+			(uuid "a38c76d9-ea60-41c7-a656-c73c9caf16e9")
+		)
+		(pin "5"
+			(uuid "a2c5a860-3db3-4044-ad10-e14c6f9c3c5e")
+		)
+		(pin "3"
+			(uuid "ca996fbb-48ca-4908-b0ba-a20523fe7e2f")
+		)
+		(pin "11"
+			(uuid "7b47500c-ff86-4b21-b52a-484b3d8cfea0")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 133.35 121.92 0)
 		(unit 1)
@@ -17462,6 +17756,121 @@
 		)
 	)
 	(symbol
+		(lib_id "bspd:TLV1704")
+		(at 204.47 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d0afd48-104f-4abc-8a31-a5173ff826d3")
+		(property "Reference" "U4"
+			(at 211.582 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 204.47 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bspd:TLV1704"
+			(at 204.47 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "1f9a55c6-13b3-4f90-830d-8edc08a75077")
+		)
+		(pin "1"
+			(uuid "34fb5fa9-429b-4f59-833a-b5f8ad280c15")
+		)
+		(pin "3"
+			(uuid "9b1fc311-34c0-4c77-8ef4-750605336232")
+		)
+		(pin "12"
+			(uuid "ce9c5432-b719-4256-bdd2-62f4c1efad03")
+		)
+		(pin "10"
+			(uuid "1b956977-f9b5-4f4d-9084-3076bfbdac04")
+		)
+		(pin "2"
+			(uuid "d77a62c9-247e-45c3-9b0b-6c177dcefa56")
+		)
+		(pin "6"
+			(uuid "91c124ce-70ee-432e-95b2-46c43e399590")
+		)
+		(pin "8"
+			(uuid "7d850fbd-e3f4-407e-b665-aa4198a3de17")
+		)
+		(pin "5"
+			(uuid "aaea25f0-a229-4fcd-88e2-b930d2dbe077")
+		)
+		(pin "9"
+			(uuid "0e4db670-ee71-4085-873b-81f390f25a8b")
+		)
+		(pin "14"
+			(uuid "a0cc2e1e-7ac8-4255-b509-947f04492320")
+		)
+		(pin "13"
+			(uuid "509a9124-fd46-4e04-9cc8-a5b518f75391")
+		)
+		(pin "7"
+			(uuid "11849c83-21df-489c-acd1-c5ab9b592647")
+		)
+		(pin "11"
+			(uuid "e7047458-2fe7-4485-932f-cddcccd845d1")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 193.04 209.55 0)
 		(unit 1)
@@ -17998,6 +18407,84 @@
 			(project "bspd"
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 82.55 64.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16137ae5-83e4-43f7-b837-e061b0eccc2f")
+		(property "Reference" "TP3"
+			(at 83.312 66.802 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BPS"
+			(at 83.312 69.342 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 77.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "648794d8-7703-4e85-bc45-cc3cb9da58a9")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -18858,6 +19345,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 212.09 115.57 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21962d18-4c0d-4adf-ada9-5ca7c5ab2897")
+		(property "Reference" "TP5"
+			(at 212.852 113.538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+1V25"
+			(at 212.852 110.998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 207.01 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 212.09 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e20d76ff-05fb-481a-9a66-85a98b59dc5a")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bspd:SN74HC74DR")
 		(at 143.51 167.64 0)
 		(unit 1)
@@ -19536,6 +20102,121 @@
 		)
 	)
 	(symbol
+		(lib_id "bspd:TLV1704")
+		(at 204.47 59.69 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2de66a18-2966-47f5-8cc1-b4b4ffef9d5a")
+		(property "Reference" "U4"
+			(at 210.566 54.356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 204.47 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bspd:TLV1704"
+			(at 204.47 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "bba363b0-54ff-4fc0-af0c-193a9c64d22a")
+		)
+		(pin "1"
+			(uuid "cee9c02d-9604-4555-83df-0b070cf1e263")
+		)
+		(pin "3"
+			(uuid "1f0b3960-16b8-40f2-837b-c29862b01adc")
+		)
+		(pin "12"
+			(uuid "3933dc06-30cf-47b1-a34c-5c161598cb73")
+		)
+		(pin "10"
+			(uuid "1b956977-f9b5-4f4d-9084-3076bfbdac02")
+		)
+		(pin "2"
+			(uuid "dc06c98b-fd0c-48ce-be53-7e14656989e6")
+		)
+		(pin "6"
+			(uuid "9a62fa7d-9058-4f9b-95fb-31d9b13c6b98")
+		)
+		(pin "8"
+			(uuid "7d850fbd-e3f4-407e-b665-aa4198a3de15")
+		)
+		(pin "5"
+			(uuid "17faf2d9-2b00-43c9-9b73-c9218c81f87f")
+		)
+		(pin "9"
+			(uuid "0e4db670-ee71-4085-873b-81f390f25a89")
+		)
+		(pin "14"
+			(uuid "a0cc2e1e-7ac8-4255-b509-947f0449231e")
+		)
+		(pin "13"
+			(uuid "509a9124-fd46-4e04-9cc8-a5b518f7538f")
+		)
+		(pin "7"
+			(uuid "020055b7-be37-4e3b-92d8-d5c0f7129777")
+		)
+		(pin "11"
+			(uuid "e7047458-2fe7-4485-932f-cddcccd845cf")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 269.24 209.55 0)
 		(unit 1)
@@ -19613,121 +20294,6 @@
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "C18")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bspd:TLV1704")
-		(at 266.7 81.28 0)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2fbfe7f9-8536-4ed5-b169-b34604b5a84b")
-		(property "Reference" "U4"
-			(at 271.78 76.454 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 266.7 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:TLV1704"
-			(at 266.7 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "bba363b0-54ff-4fc0-af0c-193a9c64d229")
-		)
-		(pin "1"
-			(uuid "34fb5fa9-429b-4f59-833a-b5f8ad280c11")
-		)
-		(pin "3"
-			(uuid "1f0b3960-16b8-40f2-837b-c29862b01adb")
-		)
-		(pin "12"
-			(uuid "3933dc06-30cf-47b1-a34c-5c161598cb72")
-		)
-		(pin "10"
-			(uuid "08225642-d3f1-46cf-8bac-431ca4c0f60b")
-		)
-		(pin "2"
-			(uuid "dc06c98b-fd0c-48ce-be53-7e14656989e5")
-		)
-		(pin "6"
-			(uuid "91c124ce-70ee-432e-95b2-46c43e39958c")
-		)
-		(pin "8"
-			(uuid "7d850fbd-e3f4-407e-b665-aa4198a3de14")
-		)
-		(pin "5"
-			(uuid "17faf2d9-2b00-43c9-9b73-c9218c81f87e")
-		)
-		(pin "9"
-			(uuid "0e4db670-ee71-4085-873b-81f390f25a88")
-		)
-		(pin "14"
-			(uuid "a0cc2e1e-7ac8-4255-b509-947f0449231d")
-		)
-		(pin "13"
-			(uuid "dc7c33d9-f25e-4a15-b480-6f9bcfd5ef89")
-		)
-		(pin "7"
-			(uuid "11849c83-21df-489c-acd1-c5ab9b592643")
-		)
-		(pin "11"
-			(uuid "7ed25f09-a09c-445e-a74c-26fc56f4c6ad")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U4")
-					(unit 4)
 				)
 			)
 		)
@@ -20415,85 +20981,6 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 207.01 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3759187e-642d-4624-b428-e59457806417")
-		(property "Reference" "#PWR027"
-			(at 207.01 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Earth"
-			(at 207.01 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 207.01 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3312756c-2352-463b-98ae-d134eb021dbe")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
 		(at 368.3 121.92 180)
 		(unit 1)
 		(body_style 1)
@@ -20882,121 +21369,6 @@
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "#PWR059")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bspd:TLV1704")
-		(at 204.47 43.18 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "39be0fac-90eb-415e-952d-dc4595320100")
-		(property "Reference" "U2"
-			(at 209.55 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 204.47 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:TLV1704"
-			(at 204.47 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "108e86e3-cb5d-4f4f-8646-8c0523c7fc2b")
-		)
-		(pin "4"
-			(uuid "8e41bd49-0b9a-41d5-a71a-782126fe1a0f")
-		)
-		(pin "1"
-			(uuid "69e22352-83e4-49ac-9975-0be90b3854ea")
-		)
-		(pin "12"
-			(uuid "98b34fe2-edbd-4019-bb4a-6066aaf2813e")
-		)
-		(pin "8"
-			(uuid "7608ee6f-3388-4334-ad3d-4849203bb251")
-		)
-		(pin "14"
-			(uuid "fe6cdebe-b44d-4b19-a1cf-4bdbe2b8c27a")
-		)
-		(pin "13"
-			(uuid "306d0515-2903-49de-bfbc-4fa1e8e92c06")
-		)
-		(pin "9"
-			(uuid "d1909394-2a2a-4525-95f3-a1512c68cc89")
-		)
-		(pin "7"
-			(uuid "a9486162-02f3-436c-950a-81da6b46d079")
-		)
-		(pin "2"
-			(uuid "dc13f1a5-13e2-4fc6-8f60-c5d08e3da74c")
-		)
-		(pin "10"
-			(uuid "3f208c1c-519f-4cc9-8e04-6c6fc3e1999b")
-		)
-		(pin "5"
-			(uuid "a2c5a860-3db3-4044-ad10-e14c6f9c3c5c")
-		)
-		(pin "3"
-			(uuid "ca996fbb-48ca-4908-b0ba-a20523fe7e2d")
-		)
-		(pin "11"
-			(uuid "064be1b1-2a44-4c86-96d1-7dc5a9d2d4ba")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U2")
-					(unit 3)
 				)
 			)
 		)
@@ -22468,6 +22840,85 @@
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "U5")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 233.68 115.57 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ee7fa4a-74e7-4d99-99a0-c7a82e72a9b1")
+		(property "Reference" "TP6"
+			(at 234.442 113.538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+2V5"
+			(at 234.442 110.998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 228.6 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 233.68 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bd3a7e9-e1a2-46e4-b737-deb333a0f07c")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "TP6")
+					(unit 1)
 				)
 			)
 		)
@@ -25651,6 +26102,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 82.55 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "75bded58-2a2a-4e93-ae5a-9cf574d73966")
+		(property "Reference" "TP2"
+			(at 83.312 52.832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPS2"
+			(at 83.312 55.372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 77.47 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1680b88-dd34-4a5e-855e-3d5c2445f532")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 246.38 107.95 0)
 		(unit 1)
@@ -26175,121 +26704,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bspd:TLV1704")
-		(at 204.47 59.69 0)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7b4afb15-80b9-439c-b517-0a2d638cdf1b")
-		(property "Reference" "U2"
-			(at 209.55 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 204.47 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:TLV1704"
-			(at 204.47 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "108e86e3-cb5d-4f4f-8646-8c0523c7fc2e")
-		)
-		(pin "4"
-			(uuid "8e41bd49-0b9a-41d5-a71a-782126fe1a11")
-		)
-		(pin "1"
-			(uuid "69e22352-83e4-49ac-9975-0be90b3854ed")
-		)
-		(pin "12"
-			(uuid "98b34fe2-edbd-4019-bb4a-6066aaf28140")
-		)
-		(pin "8"
-			(uuid "c088a217-fa90-4037-b637-3ffe81ea7352")
-		)
-		(pin "14"
-			(uuid "c3692d1f-08fe-493f-b428-c37e06b7705d")
-		)
-		(pin "13"
-			(uuid "6c586948-9387-461e-8444-fa1b998cdfd8")
-		)
-		(pin "9"
-			(uuid "bc6a1b3f-bbfd-41a2-bec6-7b49825ee65a")
-		)
-		(pin "7"
-			(uuid "a9486162-02f3-436c-950a-81da6b46d07c")
-		)
-		(pin "2"
-			(uuid "dc13f1a5-13e2-4fc6-8f60-c5d08e3da74e")
-		)
-		(pin "10"
-			(uuid "48571558-1c0d-4a7d-9afa-3ef94f6b565a")
-		)
-		(pin "5"
-			(uuid "a2c5a860-3db3-4044-ad10-e14c6f9c3c5e")
-		)
-		(pin "3"
-			(uuid "ca996fbb-48ca-4908-b0ba-a20523fe7e2f")
-		)
-		(pin "11"
-			(uuid "7e4fd2b2-dca9-4630-84aa-cfd7bb07af6c")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U2")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 60.96 228.6 0)
 		(unit 1)
@@ -26446,6 +26860,121 @@
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "C20")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bspd:TLV1704")
+		(at 266.7 64.77 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e6ce658-7322-4dd1-8055-53c8621dca78")
+		(property "Reference" "U2"
+			(at 271.78 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 266.7 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bspd:TLV1704"
+			(at 266.7 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "108e86e3-cb5d-4f4f-8646-8c0523c7fc2b")
+		)
+		(pin "4"
+			(uuid "8e41bd49-0b9a-41d5-a71a-782126fe1a0f")
+		)
+		(pin "1"
+			(uuid "69e22352-83e4-49ac-9975-0be90b3854ea")
+		)
+		(pin "12"
+			(uuid "98b34fe2-edbd-4019-bb4a-6066aaf2813e")
+		)
+		(pin "8"
+			(uuid "1b797b1e-952c-4aa8-80dc-660b3fe1bace")
+		)
+		(pin "14"
+			(uuid "cd2a1bbc-285f-4d36-a1a8-98915ac38d08")
+		)
+		(pin "13"
+			(uuid "306d0515-2903-49de-bfbc-4fa1e8e92c06")
+		)
+		(pin "9"
+			(uuid "c94d6f2b-2e4e-4c27-a6bc-62e0103a2816")
+		)
+		(pin "7"
+			(uuid "a9486162-02f3-436c-950a-81da6b46d079")
+		)
+		(pin "2"
+			(uuid "dc13f1a5-13e2-4fc6-8f60-c5d08e3da74c")
+		)
+		(pin "10"
+			(uuid "3f208c1c-519f-4cc9-8e04-6c6fc3e1999b")
+		)
+		(pin "5"
+			(uuid "a2c5a860-3db3-4044-ad10-e14c6f9c3c5c")
+		)
+		(pin "3"
+			(uuid "ca996fbb-48ca-4908-b0ba-a20523fe7e2d")
+		)
+		(pin "11"
+			(uuid "064be1b1-2a44-4c86-96d1-7dc5a9d2d4ba")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
@@ -26813,121 +27342,6 @@
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "#PWR057")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bspd:TLV1704")
-		(at 255.27 49.53 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8cb53c58-548b-4cb3-93e2-d1778de1963f")
-		(property "Reference" "U4"
-			(at 261.366 44.196 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 255.27 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:TLV1704"
-			(at 255.27 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 255.27 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "bba363b0-54ff-4fc0-af0c-193a9c64d22a")
-		)
-		(pin "1"
-			(uuid "a7ff1e59-8574-4235-8174-7f23d0655d26")
-		)
-		(pin "3"
-			(uuid "1f0b3960-16b8-40f2-837b-c29862b01adc")
-		)
-		(pin "12"
-			(uuid "3933dc06-30cf-47b1-a34c-5c161598cb73")
-		)
-		(pin "10"
-			(uuid "1b956977-f9b5-4f4d-9084-3076bfbdac02")
-		)
-		(pin "2"
-			(uuid "dc06c98b-fd0c-48ce-be53-7e14656989e6")
-		)
-		(pin "6"
-			(uuid "bc31a643-b1bc-4ff0-8c62-d110cc83663a")
-		)
-		(pin "8"
-			(uuid "7d850fbd-e3f4-407e-b665-aa4198a3de15")
-		)
-		(pin "5"
-			(uuid "17faf2d9-2b00-43c9-9b73-c9218c81f87f")
-		)
-		(pin "9"
-			(uuid "0e4db670-ee71-4085-873b-81f390f25a89")
-		)
-		(pin "14"
-			(uuid "a0cc2e1e-7ac8-4255-b509-947f0449231e")
-		)
-		(pin "13"
-			(uuid "509a9124-fd46-4e04-9cc8-a5b518f7538f")
-		)
-		(pin "7"
-			(uuid "98da49ec-6ed3-4245-b3c9-23ae5af39c78")
-		)
-		(pin "11"
-			(uuid "e7047458-2fe7-4485-932f-cddcccd845cf")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U4")
-					(unit 2)
 				)
 			)
 		)
@@ -28571,6 +28985,121 @@
 		)
 	)
 	(symbol
+		(lib_id "bspd:TLV1704")
+		(at 204.47 77.47 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a6fb9fb6-69aa-4bdf-ad3e-2c05f6258073")
+		(property "Reference" "U4"
+			(at 209.804 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 204.47 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bspd:TLV1704"
+			(at 204.47 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "bba363b0-54ff-4fc0-af0c-193a9c64d22b")
+		)
+		(pin "1"
+			(uuid "34fb5fa9-429b-4f59-833a-b5f8ad280c13")
+		)
+		(pin "3"
+			(uuid "1f0b3960-16b8-40f2-837b-c29862b01add")
+		)
+		(pin "12"
+			(uuid "3933dc06-30cf-47b1-a34c-5c161598cb74")
+		)
+		(pin "10"
+			(uuid "1b956977-f9b5-4f4d-9084-3076bfbdac03")
+		)
+		(pin "2"
+			(uuid "dc06c98b-fd0c-48ce-be53-7e14656989e7")
+		)
+		(pin "6"
+			(uuid "91c124ce-70ee-432e-95b2-46c43e39958e")
+		)
+		(pin "8"
+			(uuid "67b00210-c852-464f-82ee-32fa9a3d5f52")
+		)
+		(pin "5"
+			(uuid "17faf2d9-2b00-43c9-9b73-c9218c81f880")
+		)
+		(pin "9"
+			(uuid "abb52c80-3465-46aa-ab56-0169c4cb97df")
+		)
+		(pin "14"
+			(uuid "751dc95f-448e-4df0-a154-f1e7526559d7")
+		)
+		(pin "13"
+			(uuid "509a9124-fd46-4e04-9cc8-a5b518f75390")
+		)
+		(pin "7"
+			(uuid "11849c83-21df-489c-acd1-c5ab9b592645")
+		)
+		(pin "11"
+			(uuid "e7047458-2fe7-4485-932f-cddcccd845d0")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 330.2 137.16 0)
 		(unit 1)
@@ -28805,6 +29334,85 @@
 			(project "bspd"
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 191.77 115.57 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a85e81c5-e856-41d3-aa3b-634c715f801d")
+		(property "Reference" "TP4"
+			(at 192.532 113.538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+0V45"
+			(at 192.532 110.998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 186.69 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 191.77 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3feb20ea-5e62-443e-88a8-74fd0b2377a3")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -29360,121 +29968,6 @@
 			(project "bspd"
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bspd:TLV1704")
-		(at 204.47 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3338982-4127-4688-932d-40ec2266ad1d")
-		(property "Reference" "U4"
-			(at 211.582 73.152 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 204.47 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:TLV1704"
-			(at 204.47 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "9f188970-8961-42aa-99d5-4475aac7223a")
-		)
-		(pin "1"
-			(uuid "34fb5fa9-429b-4f59-833a-b5f8ad280c15")
-		)
-		(pin "3"
-			(uuid "922401c2-e45e-40b8-bb79-8ae6dadb29c9")
-		)
-		(pin "12"
-			(uuid "cc053597-b599-4e00-af2c-97f921542eee")
-		)
-		(pin "10"
-			(uuid "1b956977-f9b5-4f4d-9084-3076bfbdac04")
-		)
-		(pin "2"
-			(uuid "679927d7-1d57-4ce5-9e3a-e4933b2f2407")
-		)
-		(pin "6"
-			(uuid "91c124ce-70ee-432e-95b2-46c43e399590")
-		)
-		(pin "8"
-			(uuid "7d850fbd-e3f4-407e-b665-aa4198a3de17")
-		)
-		(pin "5"
-			(uuid "03b4abc3-9042-49c7-bc0a-8215ff2b97dc")
-		)
-		(pin "9"
-			(uuid "0e4db670-ee71-4085-873b-81f390f25a8b")
-		)
-		(pin "14"
-			(uuid "a0cc2e1e-7ac8-4255-b509-947f04492320")
-		)
-		(pin "13"
-			(uuid "509a9124-fd46-4e04-9cc8-a5b518f75391")
-		)
-		(pin "7"
-			(uuid "11849c83-21df-489c-acd1-c5ab9b592647")
-		)
-		(pin "11"
-			(uuid "e7047458-2fe7-4485-932f-cddcccd845d1")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -30767,6 +31260,85 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 207.01 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "befaaaf7-ce80-4800-9cd4-34cc29e7eedb")
+		(property "Reference" "#PWR027"
+			(at 207.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 207.01 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 207.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc08ad0e-1ba8-4519-91c9-caabd9e5f98f")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 129.54 229.87 0)
 		(unit 1)
 		(body_style 1)
@@ -31953,6 +32525,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 255.27 115.57 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8cb344d-500f-47b8-8f3e-9ef6027bd6d8")
+		(property "Reference" "TP7"
+			(at 256.032 113.538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+4V5"
+			(at 256.032 110.998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 250.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 255.27 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be2f953b-aab9-447e-8836-ff6ab3da70ff")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bspd:SN74LVC2G14DBVR")
 		(at 78.74 168.91 0)
 		(unit 1)
@@ -32899,6 +33550,121 @@
 		)
 	)
 	(symbol
+		(lib_id "bspd:TLV1704")
+		(at 255.27 49.53 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd7af0d3-ee38-4315-9673-7921a4df1581")
+		(property "Reference" "U4"
+			(at 260.35 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 255.27 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bspd:TLV1704"
+			(at 255.27 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "bba363b0-54ff-4fc0-af0c-193a9c64d229")
+		)
+		(pin "1"
+			(uuid "34fb5fa9-429b-4f59-833a-b5f8ad280c11")
+		)
+		(pin "3"
+			(uuid "1f0b3960-16b8-40f2-837b-c29862b01adb")
+		)
+		(pin "12"
+			(uuid "3933dc06-30cf-47b1-a34c-5c161598cb72")
+		)
+		(pin "10"
+			(uuid "a53c95e8-1f12-4bba-90d2-eeea4f15b2a4")
+		)
+		(pin "2"
+			(uuid "dc06c98b-fd0c-48ce-be53-7e14656989e5")
+		)
+		(pin "6"
+			(uuid "91c124ce-70ee-432e-95b2-46c43e39958c")
+		)
+		(pin "8"
+			(uuid "7d850fbd-e3f4-407e-b665-aa4198a3de14")
+		)
+		(pin "5"
+			(uuid "17faf2d9-2b00-43c9-9b73-c9218c81f87e")
+		)
+		(pin "9"
+			(uuid "0e4db670-ee71-4085-873b-81f390f25a88")
+		)
+		(pin "14"
+			(uuid "a0cc2e1e-7ac8-4255-b509-947f0449231d")
+		)
+		(pin "13"
+			(uuid "e5bac5fa-a49c-445f-bdf7-acd836439855")
+		)
+		(pin "7"
+			(uuid "11849c83-21df-489c-acd1-c5ab9b592643")
+		)
+		(pin "11"
+			(uuid "2aa3b228-204b-411b-812d-5d156d01a4e1")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 269.24 44.45 0)
 		(unit 1)
@@ -33627,83 +34393,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 207.01 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eaf8ae7c-b0b5-48bc-bfc9-973291a847fb")
-		(property "Reference" "#PWR021"
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 207.01 66.294 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 207.01 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2317b06c-ac9d-480e-be57-15de21bb058a")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 288.29 149.86 0)
 		(unit 1)
 		(body_style 1)
@@ -33934,6 +34623,84 @@
 			(project "bspd"
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 82.55 36.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed6199f6-81df-4e97-8c10-396f37ab09c7")
+		(property "Reference" "TP1"
+			(at 83.312 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPS1"
+			(at 83.312 41.402 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 77.47 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17295501-4873-4b83-9ccc-860f80876379")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -34261,121 +35028,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bspd:TLV1704")
-		(at 266.7 64.77 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f609194b-c559-4b17-b77d-aa3a0468d504")
-		(property "Reference" "U4"
-			(at 272.034 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 266.7 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:TLV1704"
-			(at 266.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "bba363b0-54ff-4fc0-af0c-193a9c64d22b")
-		)
-		(pin "1"
-			(uuid "34fb5fa9-429b-4f59-833a-b5f8ad280c13")
-		)
-		(pin "3"
-			(uuid "1f0b3960-16b8-40f2-837b-c29862b01add")
-		)
-		(pin "12"
-			(uuid "3933dc06-30cf-47b1-a34c-5c161598cb74")
-		)
-		(pin "10"
-			(uuid "1b956977-f9b5-4f4d-9084-3076bfbdac03")
-		)
-		(pin "2"
-			(uuid "dc06c98b-fd0c-48ce-be53-7e14656989e7")
-		)
-		(pin "6"
-			(uuid "91c124ce-70ee-432e-95b2-46c43e39958e")
-		)
-		(pin "8"
-			(uuid "52acc8cd-18f7-40df-935f-cedab34328fb")
-		)
-		(pin "5"
-			(uuid "17faf2d9-2b00-43c9-9b73-c9218c81f880")
-		)
-		(pin "9"
-			(uuid "587e7c1b-60f4-48f0-b0df-1cc3d14021a7")
-		)
-		(pin "14"
-			(uuid "ace68745-e279-4a03-9779-1100c1ce052d")
-		)
-		(pin "13"
-			(uuid "509a9124-fd46-4e04-9cc8-a5b518f75390")
-		)
-		(pin "7"
-			(uuid "11849c83-21df-489c-acd1-c5ab9b592645")
-		)
-		(pin "11"
-			(uuid "e7047458-2fe7-4485-932f-cddcccd845d0")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U4")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bspd:SN74LVC3G14DCUR")
 		(at 66.04 262.89 0)
 		(unit 3)
@@ -34659,6 +35311,83 @@
 			(project "bspd"
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 207.01 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa2bc56d-90b9-48a1-a4e1-c7577c091bee")
+		(property "Reference" "#PWR021"
+			(at 207.01 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 207.01 32.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 207.01 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "431b476d-6fac-4362-b753-996422be44c8")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
