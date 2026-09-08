@@ -1,0 +1,12 @@
+(version 1)
+
+# JLCPCB fab capability overrides for KiCad's generic default netclass clearance (0.2mm).
+# Source: https://jlcpcb.com/capabilities/pcb-capabilities (checked 2026-09-08)
+#   - SMD pad-to-pad: 0.15mm minimum
+# This board's SOT-23-8 parts (U7/U8/U9, 0.65mm pin pitch, 0.5mm pad height) have an
+# inherent 0.15mm gap between adjacent pads - fixed by the package, not a routing choice.
+# That's exactly at JLCPCB's published minimum (zero margin, but within spec), so relax
+# just the SMD-pad-to-pad clearance check to match reality instead of the generic default.
+(rule "JLCPCB SMD pad-to-pad clearance"
+	(constraint clearance (min 0.15mm))
+	(condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Pad_Type == 'SMD' && B.Pad_Type == 'SMD' && A.Net != B.Net"))

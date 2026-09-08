@@ -108,7 +108,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "VSSOP*"
+		(property "ki_fp_filters" "SN74LVC3G14DCUR*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

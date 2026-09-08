@@ -5493,7 +5493,7 @@
 		(uuid "96786259-7bed-4867-8525-7a8d9f29564f")
 	)
 	(rectangle
-		(start 34.29 113.03)
+		(start 34.29 111.76)
 		(end 106.68 143.51)
 		(stroke
 			(width 0)
@@ -5554,7 +5554,7 @@
 	)
 	(rectangle
 		(start 34.29 189.23)
-		(end 171.45 278.13)
+		(end 168.91 278.13)
 		(stroke
 			(width 0)
 			(type default)
@@ -5646,7 +5646,7 @@
 	)
 	(text "Unused parts of D-latch\n"
 		(exclude_from_sim no)
-		(at 46.736 114.554 0)
+		(at 47.244 114.046 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5777,7 +5777,7 @@
 	)
 	(text "Window Comparators"
 		(exclude_from_sim no)
-		(at 125.984 31.496 0)
+		(at 128.778 32.004 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5857,7 +5857,7 @@
 	)
 	(text "TPS1 out of range\nfor more than\n100ms: LOW\n"
 		(exclude_from_sim no)
-		(at 403.098 65.024 0)
+		(at 401.574 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5917,7 +5917,7 @@
 	)
 	(text "Timing Comparators"
 		(exclude_from_sim no)
-		(at 346.71 29.21 0)
+		(at 300.228 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6047,7 +6047,7 @@
 	)
 	(text "Unused\n"
 		(exclude_from_sim no)
-		(at 256.794 60.198 0)
+		(at 257.302 58.166 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6057,7 +6057,7 @@
 	)
 	(text "TPS2 out of range\nfor more than\n100ms: LOW\n"
 		(exclude_from_sim no)
-		(at 402.844 86.614 0)
+		(at 402.082 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6565,7 +6565,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 242.57) (xy 166.37 242.57)
+			(xy 165.1 242.57) (xy 163.83 242.57)
 		)
 		(stroke
 			(width 0)
@@ -6835,7 +6835,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 261.62) (xy 166.37 261.62)
+			(xy 165.1 261.62) (xy 163.83 261.62)
 		)
 		(stroke
 			(width 0)
@@ -7035,7 +7035,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 262.89) (xy 167.64 261.62)
+			(xy 165.1 262.89) (xy 165.1 261.62)
 		)
 		(stroke
 			(width 0)
@@ -7105,7 +7105,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 219.71) (xy 166.37 219.71)
+			(xy 165.1 219.71) (xy 163.83 219.71)
 		)
 		(stroke
 			(width 0)
@@ -7625,7 +7625,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 220.98) (xy 167.64 219.71)
+			(xy 165.1 220.98) (xy 165.1 219.71)
 		)
 		(stroke
 			(width 0)
@@ -7685,7 +7685,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 242.57) (xy 158.75 242.57)
+			(xy 152.4 242.57) (xy 156.21 242.57)
 		)
 		(stroke
 			(width 0)
@@ -7985,7 +7985,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 261.62) (xy 158.75 261.62)
+			(xy 152.4 261.62) (xy 156.21 261.62)
 		)
 		(stroke
 			(width 0)
@@ -8135,7 +8135,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 219.71) (xy 158.75 219.71)
+			(xy 152.4 219.71) (xy 156.21 219.71)
 		)
 		(stroke
 			(width 0)
@@ -8505,7 +8505,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 243.84) (xy 167.64 242.57)
+			(xy 165.1 243.84) (xy 165.1 242.57)
 		)
 		(stroke
 			(width 0)
@@ -16079,7 +16079,7 @@
 	)
 	(global_label "FAULT"
 		(shape input)
-		(at 119.38 261.62 180)
+		(at 116.84 261.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16089,7 +16089,7 @@
 		)
 		(uuid "5680a050-e5f1-4bd4-b8cd-b2a848ce10de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.8914 261.62 0)
+			(at 108.3514 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16247,7 +16247,7 @@
 	)
 	(global_label "TPSx10%"
 		(shape input)
-		(at 119.38 219.71 180)
+		(at 116.84 219.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16257,7 +16257,7 @@
 		)
 		(uuid "6adeeb15-2375-4e7d-8618-59e377b5b8c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.0492 219.71 0)
+			(at 105.5092 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17039,7 +17039,7 @@
 	)
 	(global_label "HB"
 		(shape input)
-		(at 119.38 242.57 180)
+		(at 116.84 242.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17049,7 +17049,7 @@
 		)
 		(uuid "d06bbcd4-f95f-453a-991c-9b473d8d9c00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.7943 242.57 0)
+			(at 111.2543 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18293,7 +18293,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 167.64 243.84 0)
+		(at 165.1 243.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18304,7 +18304,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a958445-9a1b-437e-8fa8-03cb4ac3f23e")
 		(property "Reference" "#PWR0102"
-			(at 167.64 250.19 0)
+			(at 165.1 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18315,7 +18315,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 248.92 0)
+			(at 165.1 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18326,7 +18326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 243.84 0)
+			(at 165.1 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18337,7 +18337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 243.84 0)
+			(at 165.1 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18348,7 +18348,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\""
-			(at 167.64 243.84 0)
+			(at 165.1 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19024,7 +19024,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 162.56 219.71 90)
+		(at 160.02 219.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19035,7 +19035,7 @@
 		(fields_autoplaced yes)
 		(uuid "1095e83e-7741-4ef6-b26a-f8a25f5d996a")
 		(property "Reference" "R41"
-			(at 162.56 213.36 90)
+			(at 160.02 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19045,7 +19045,7 @@
 			)
 		)
 		(property "Value" "500"
-			(at 162.56 215.9 90)
+			(at 160.02 215.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19055,7 +19055,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 162.814 218.694 90)
+			(at 160.274 218.694 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19066,7 +19066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 219.71 0)
+			(at 160.02 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19077,7 +19077,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 162.56 219.71 0)
+			(at 160.02 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20071,7 +20071,7 @@
 	)
 	(symbol
 		(lib_id "bspd:AP2012EC")
-		(at 151.13 242.57 180)
+		(at 148.59 242.57 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20082,7 +20082,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ed3afe6-0f2d-4129-a712-615b9de4898a")
 		(property "Reference" "D13"
-			(at 152.7175 234.95 0)
+			(at 150.1775 234.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20092,7 +20092,7 @@
 			)
 		)
 		(property "Value" "AP2012EC"
-			(at 152.7175 237.49 0)
+			(at 150.1775 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20102,7 +20102,7 @@
 			)
 		)
 		(property "Footprint" "bspd:AP2012EC"
-			(at 151.13 242.57 0)
+			(at 148.59 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20113,7 +20113,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/AP2012EC.pdf"
-			(at 151.13 242.57 0)
+			(at 148.59 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20124,7 +20124,7 @@
 			)
 		)
 		(property "Description" "High-efficiency red LED, 627nm, 8-15mcd @20mA, Vf 2.0-2.5V, 0805 (2.0x1.25mm), water clear"
-			(at 151.13 242.57 0)
+			(at 148.59 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20135,7 +20135,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 151.13 242.57 0)
+			(at 148.59 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20146,7 +20146,7 @@
 			)
 		)
 		(property "MPN" "AP2012EC"
-			(at 151.13 242.57 0)
+			(at 148.59 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22941,7 +22941,7 @@
 	)
 	(symbol
 		(lib_id "bspd:AP2012EC")
-		(at 151.13 219.71 180)
+		(at 148.59 219.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22952,7 +22952,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ec12049-8450-4771-89cc-725632959dd9")
 		(property "Reference" "D11"
-			(at 152.7175 212.09 0)
+			(at 150.1775 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22962,7 +22962,7 @@
 			)
 		)
 		(property "Value" "AP2012EC"
-			(at 152.7175 214.63 0)
+			(at 150.1775 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22972,7 +22972,7 @@
 			)
 		)
 		(property "Footprint" "bspd:AP2012EC"
-			(at 151.13 219.71 0)
+			(at 148.59 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22983,7 +22983,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/AP2012EC.pdf"
-			(at 151.13 219.71 0)
+			(at 148.59 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22994,7 +22994,7 @@
 			)
 		)
 		(property "Description" "High-efficiency red LED, 627nm, 8-15mcd @20mA, Vf 2.0-2.5V, 0805 (2.0x1.25mm), water clear"
-			(at 151.13 219.71 0)
+			(at 148.59 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23005,7 +23005,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 151.13 219.71 0)
+			(at 148.59 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23016,7 +23016,7 @@
 			)
 		)
 		(property "MPN" "AP2012EC"
-			(at 151.13 219.71 0)
+			(at 148.59 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25457,7 +25457,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 162.56 242.57 90)
+		(at 160.02 242.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25468,7 +25468,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a54cd23-0e91-46de-8e4a-f500b6231111")
 		(property "Reference" "R43"
-			(at 162.56 236.22 90)
+			(at 160.02 236.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25478,7 +25478,7 @@
 			)
 		)
 		(property "Value" "500"
-			(at 162.56 238.76 90)
+			(at 160.02 238.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25488,7 +25488,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 162.814 241.554 90)
+			(at 160.274 241.554 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25499,7 +25499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 242.57 0)
+			(at 160.02 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25510,7 +25510,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 162.56 242.57 0)
+			(at 160.02 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26116,7 +26116,7 @@
 	)
 	(symbol
 		(lib_id "bspd:AP2012EC")
-		(at 151.13 261.62 180)
+		(at 148.59 261.62 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26127,7 +26127,7 @@
 		(fields_autoplaced yes)
 		(uuid "61481696-a29b-46de-b757-031409608e79")
 		(property "Reference" "D14"
-			(at 152.7175 254 0)
+			(at 150.1775 254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26137,7 +26137,7 @@
 			)
 		)
 		(property "Value" "AP2012EC"
-			(at 152.7175 256.54 0)
+			(at 150.1775 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26147,7 +26147,7 @@
 			)
 		)
 		(property "Footprint" "bspd:AP2012EC"
-			(at 151.13 261.62 0)
+			(at 148.59 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26158,7 +26158,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/AP2012EC.pdf"
-			(at 151.13 261.62 0)
+			(at 148.59 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26169,7 +26169,7 @@
 			)
 		)
 		(property "Description" "High-efficiency red LED, 627nm, 8-15mcd @20mA, Vf 2.0-2.5V, 0805 (2.0x1.25mm), water clear"
-			(at 151.13 261.62 0)
+			(at 148.59 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26180,7 +26180,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 151.13 261.62 0)
+			(at 148.59 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26191,7 +26191,7 @@
 			)
 		)
 		(property "MPN" "AP2012EC"
-			(at 151.13 261.62 0)
+			(at 148.59 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26934,7 +26934,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 129.54 209.55 0)
+		(at 127 209.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26944,7 +26944,7 @@
 		(dnp no)
 		(uuid "6bdb6a0d-6b05-45fd-a957-69b0d0bdcd65")
 		(property "Reference" "#PWR091"
-			(at 129.54 213.36 0)
+			(at 127 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26955,7 +26955,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 129.54 205.994 0)
+			(at 127 205.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26965,7 +26965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 209.55 0)
+			(at 127 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26976,7 +26976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 209.55 0)
+			(at 127 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26987,7 +26987,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 129.54 209.55 0)
+			(at 127 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28007,7 +28007,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 162.56 261.62 90)
+		(at 160.02 261.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28018,7 +28018,7 @@
 		(fields_autoplaced yes)
 		(uuid "76490d08-a2a3-46c1-a67e-c317ac151169")
 		(property "Reference" "R44"
-			(at 162.56 255.27 90)
+			(at 160.02 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28028,7 +28028,7 @@
 			)
 		)
 		(property "Value" "500"
-			(at 162.56 257.81 90)
+			(at 160.02 257.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28038,7 +28038,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 162.814 260.604 90)
+			(at 160.274 260.604 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28049,7 +28049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 261.62 0)
+			(at 160.02 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28060,7 +28060,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 162.56 261.62 0)
+			(at 160.02 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28911,7 +28911,7 @@
 	)
 	(symbol
 		(lib_id "bspd:SN74LVC3G14DCUR")
-		(at 134.62 261.62 0)
+		(at 132.08 261.62 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28922,7 +28922,7 @@
 		(fields_autoplaced yes)
 		(uuid "805b4dbb-46f9-4f51-87eb-9239b5de8ee4")
 		(property "Reference" "U9"
-			(at 133.35 250.19 0)
+			(at 130.81 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28932,7 +28932,7 @@
 			)
 		)
 		(property "Value" "SN74LVC3G14DCUR"
-			(at 133.35 252.73 0)
+			(at 130.81 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28941,8 +28941,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 134.62 261.62 0)
+		(property "Footprint" "bspd:SN74LVC3G14DCUR"
+			(at 132.08 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28953,7 +28953,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc3g14"
-			(at 134.62 261.62 0)
+			(at 132.08 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28964,7 +28964,7 @@
 			)
 		)
 		(property "Description" "Triple Schmitt-trigger inverter, 1.65V-5.5V, VSSOP-8 (DCU)"
-			(at 134.62 261.62 0)
+			(at 132.08 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28975,7 +28975,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 134.62 261.62 0)
+			(at 132.08 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28986,7 +28986,7 @@
 			)
 		)
 		(property "MPN" "SN74LVC3G14DCUR"
-			(at 134.62 261.62 0)
+			(at 132.08 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28997,7 +28997,7 @@
 			)
 		)
 		(property "LCSC Part" "C98856"
-			(at 134.62 261.62 0)
+			(at 132.08 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30724,7 +30724,7 @@
 	)
 	(symbol
 		(lib_id "bspd:SN74LVC3G14DCUR")
-		(at 134.62 219.71 0)
+		(at 132.08 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30734,7 +30734,7 @@
 		(dnp no)
 		(uuid "a3693667-60eb-494f-b077-fb8230e442b4")
 		(property "Reference" "U9"
-			(at 132.334 211.582 0)
+			(at 129.794 211.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30744,7 +30744,7 @@
 			)
 		)
 		(property "Value" "SN74LVC3G14DCUR"
-			(at 139.7 209.296 0)
+			(at 137.16 209.296 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30753,8 +30753,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 134.62 219.71 0)
+		(property "Footprint" "bspd:SN74LVC3G14DCUR"
+			(at 132.08 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30765,7 +30765,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc3g14"
-			(at 134.62 219.71 0)
+			(at 132.08 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30776,7 +30776,7 @@
 			)
 		)
 		(property "Description" "Triple Schmitt-trigger inverter, 1.65V-5.5V, VSSOP-8 (DCU)"
-			(at 134.62 219.71 0)
+			(at 132.08 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30787,7 +30787,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 134.62 219.71 0)
+			(at 132.08 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30798,7 +30798,7 @@
 			)
 		)
 		(property "MPN" "SN74LVC3G14DCUR"
-			(at 134.62 219.71 0)
+			(at 132.08 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30809,7 +30809,7 @@
 			)
 		)
 		(property "LCSC Part" "C98856"
-			(at 134.62 219.71 0)
+			(at 132.08 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33718,7 +33718,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 129.54 229.87 0)
+		(at 127 229.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33729,7 +33729,7 @@
 		(fields_autoplaced yes)
 		(uuid "befd5d14-1d24-437e-9b66-b0f8a4aa7471")
 		(property "Reference" "#PWR0100"
-			(at 129.54 236.22 0)
+			(at 127 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33740,7 +33740,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 234.95 0)
+			(at 127 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33751,7 +33751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 229.87 0)
+			(at 127 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33762,7 +33762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 229.87 0)
+			(at 127 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33773,7 +33773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\""
-			(at 129.54 229.87 0)
+			(at 127 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33826,7 +33826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "bspd:SN74LVC3G14DCUR"
 			(at 64.77 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -34774,7 +34774,7 @@
 	)
 	(symbol
 		(lib_id "bspd:SN74LVC3G14DCUR")
-		(at 134.62 242.57 0)
+		(at 132.08 242.57 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34785,7 +34785,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8854869-d598-429a-b9ac-1d6eebc04c16")
 		(property "Reference" "U9"
-			(at 133.35 231.14 0)
+			(at 130.81 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34795,7 +34795,7 @@
 			)
 		)
 		(property "Value" "SN74LVC3G14DCUR"
-			(at 133.35 233.68 0)
+			(at 130.81 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34804,8 +34804,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 134.62 242.57 0)
+		(property "Footprint" "bspd:SN74LVC3G14DCUR"
+			(at 132.08 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34816,7 +34816,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc3g14"
-			(at 134.62 242.57 0)
+			(at 132.08 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34827,7 +34827,7 @@
 			)
 		)
 		(property "Description" "Triple Schmitt-trigger inverter, 1.65V-5.5V, VSSOP-8 (DCU)"
-			(at 134.62 242.57 0)
+			(at 132.08 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34838,7 +34838,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 134.62 242.57 0)
+			(at 132.08 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34849,7 +34849,7 @@
 			)
 		)
 		(property "MPN" "SN74LVC3G14DCUR"
-			(at 134.62 242.57 0)
+			(at 132.08 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34860,7 +34860,7 @@
 			)
 		)
 		(property "LCSC Part" "C98856"
-			(at 134.62 242.57 0)
+			(at 132.08 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35013,7 +35013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "bspd:SN74LVC2G14DBVR"
 			(at 81.28 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -35682,7 +35682,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 167.64 220.98 0)
+		(at 165.1 220.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35693,7 +35693,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc6d3098-8b22-49ac-8019-90207f6c7b51")
 		(property "Reference" "#PWR095"
-			(at 167.64 227.33 0)
+			(at 165.1 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35704,7 +35704,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 226.06 0)
+			(at 165.1 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35715,7 +35715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 220.98 0)
+			(at 165.1 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35726,7 +35726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 220.98 0)
+			(at 165.1 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35737,7 +35737,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\""
-			(at 167.64 220.98 0)
+			(at 165.1 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36477,7 +36477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "bspd:SN74LVC3G14DCUR"
 			(at 66.04 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -37581,7 +37581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "bspd:SN74LVC3G14DCUR"
 			(at 66.04 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -37682,7 +37682,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 167.64 262.89 0)
+		(at 165.1 262.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37693,7 +37693,7 @@
 		(fields_autoplaced yes)
 		(uuid "f79ad77e-4470-4478-a93d-ec03bce4c683")
 		(property "Reference" "#PWR0103"
-			(at 167.64 269.24 0)
+			(at 165.1 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37704,7 +37704,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 267.97 0)
+			(at 165.1 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37715,7 +37715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 262.89 0)
+			(at 165.1 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37726,7 +37726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 262.89 0)
+			(at 165.1 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37737,7 +37737,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\""
-			(at 167.64 262.89 0)
+			(at 165.1 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38186,7 +38186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "bspd:SN74LVC2G14DBVR"
 			(at 111.76 168.91 0)
 			(hide yes)
 			(show_name no)
