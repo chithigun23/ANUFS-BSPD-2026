@@ -2249,7 +2249,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "apppd:AQ1005-01ETG"
+		(symbol "bspd:AQ1005-01ETG"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2282,7 +2282,7 @@
 					)
 				)
 			)
-			(property "Footprint" "apppd:AQ1005-01ETG"
+			(property "Footprint" "bspd:AQ1005-01ETG"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -18371,7 +18371,7 @@
 		)
 	)
 	(symbol
-		(lib_id "apppd:AQ1005-01ETG")
+		(lib_id "bspd:AQ1005-01ETG")
 		(at 38.1 54.61 270)
 		(unit 1)
 		(body_style 1)
@@ -21166,7 +21166,7 @@
 		)
 	)
 	(symbol
-		(lib_id "apppd:AQ1005-01ETG")
+		(lib_id "bspd:AQ1005-01ETG")
 		(at 38.1 68.58 270)
 		(unit 1)
 		(body_style 1)
@@ -28371,7 +28371,7 @@
 		)
 	)
 	(symbol
-		(lib_id "apppd:AQ1005-01ETG")
+		(lib_id "bspd:AQ1005-01ETG")
 		(at 38.1 40.64 270)
 		(unit 1)
 		(body_style 1)
