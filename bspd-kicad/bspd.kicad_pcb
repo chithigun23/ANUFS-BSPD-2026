@@ -213,6 +213,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e1a3ee5-8762-4a82-96d2-2dcde3fa4f2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/76490d08-a2a3-46c1-a67e-c317ac151169")
 		(sheetname "/")
@@ -349,7 +362,7 @@
 				)
 			)
 		)
-		(property "Description" "10k ohm +/-20% single-turn cermet SMD trimmer potentiometer, 0.125W, 3mm square, top adjust"
+		(property "Description" "20k ohm +/-20% single-turn cermet SMD trimmer potentiometer, 0.125W, 3mm square, top adjust"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -374,7 +387,7 @@
 				)
 			)
 		)
-		(property "MPN" "3313J-1-103E"
+		(property "MPN" "3313J-1-203E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -387,7 +400,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C124616"
+		(property "LCSC Part" "C124621"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -400,12 +413,25 @@
 				)
 			)
 		)
-		(property "Resistance" "10k"
+		(property "Resistance" "20k"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "72c18add-3150-47a2-8052-421c70f0dfb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a950f78-5155-4a38-a6d6-b4843a0c8baf")
 			(effects
 				(font
 					(size 1 1)
@@ -692,6 +718,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02f78ce8-379e-4e44-8c24-cbf0a1bbc019")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61ca37a0-6f0b-466a-9b5a-71932db7d804")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "252c9d79-0c73-4c81-b0e7-b345b731f339")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fd895c33-6ffa-4552-adf0-033d86cfc98e")
 		(sheetname "/")
@@ -843,6 +908,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b6f4e411-24ce-479d-b30c-18d8ab08f327")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e80e35c0-344e-4e3b-b7d4-a1eaf054c9aa")
 			(effects
 				(font
 					(size 1 1)
@@ -1008,6 +1086,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7763a8fd-68ec-44ea-a11c-7e9e3bef426d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cbbcd12-a003-474f-a473-6ddc0cd380e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98fd8aaf-c7c1-461d-a3e9-e1bf5d882c3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/aad243f8-8fdc-4d8f-b998-2c7eb4b6f55f")
 		(sheetname "/")
@@ -1159,6 +1276,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b780e983-d7c0-4ee1-a44b-3b5cb7523fff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "350d7064-2344-4754-b46c-8db865c50310")
 			(effects
 				(font
 					(size 1 1)
@@ -1324,6 +1454,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a69ed168-3db7-4328-a61c-9b7a593e1ddd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e99e56e9-a7da-4345-b264-e9b5e06333b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28396ca3-d985-4ef0-9015-8711ec027a0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4b394d27-a6af-4313-b5e6-1fec53af3587")
 		(sheetname "/")
@@ -1475,6 +1644,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f1ea5d1b-ef63-4b92-99a2-9da88ee06955")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b66abd3-1677-4acb-8ee1-808103e52548")
 			(effects
 				(font
 					(size 1 1)
@@ -1640,6 +1822,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad002ad4-0c34-4d08-a92c-734b689e0b54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5c7e15e-a77d-48d7-80b8-fde2e6693cfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "263581d5-7a45-465f-8658-75e5a8193ced")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/99583787-ce32-48ce-9047-c74a328e8ee0")
 		(sheetname "/")
@@ -1791,6 +2012,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "38ab4801-2013-4314-b1b8-ea1bd2189fc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fae2acad-2d2a-4ab1-b61c-38ae63f05a27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17c25516-645c-473c-863f-93d0b30b3e84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4be5e4d-ce42-4993-bc72-0b4cddb81b94")
 			(effects
 				(font
 					(size 1 1)
@@ -2095,6 +2355,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4ebfde02-08a3-4522-87f4-e4ef72b9bf91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe963780-1491-4e73-b141-2c550791b054")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aedc086f-fd58-4d5f-b201-0eacd3bd7f8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "375f6ca2-64f5-4f0e-801c-7c130575e97e")
 			(effects
 				(font
 					(size 1 1)
@@ -2517,6 +2816,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd9cf9a2-c10e-4ae7-8a1a-f269a5b1e2c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/db00cec7-abea-47a4-b69a-bd960952408b")
 		(sheetname "/")
@@ -2675,6 +2987,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18c4d829-7c04-4f2b-a121-7e9c1e11feeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/62b81d2a-dbe8-4952-a1ba-c53f47ab1957")
 		(sheetname "/")
@@ -2826,6 +3151,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "96ddaf9d-6c71-40b5-ad2f-dc839ad61915")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7eb549b1-4e99-4681-aaa6-2df859239852")
 			(effects
 				(font
 					(size 1 1)
@@ -2992,6 +3330,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d52c74f5-2469-4857-ab56-5c54752e176b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5f107adf-1e7a-4efd-b5f6-e77a19e784e0")
 		(sheetname "/")
@@ -3143,6 +3494,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "46e53a42-ae4e-4812-b419-db6196f20bf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36de900c-a88d-4dab-8c00-116b357c105e")
 			(effects
 				(font
 					(size 1 1)
@@ -3308,6 +3672,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c220ae3d-0be3-4019-9a4f-c6d1991cbf47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86a1d49b-34d3-4092-ab3f-1df4d1cc6660")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5f0b888-1c9f-417d-adf7-c42f651701e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2f64a787-8e37-4c64-bdd5-130f64cbca12")
 		(sheetname "/")
@@ -3459,6 +3862,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c795e019-8531-46d3-9fef-09705f4b98f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6d95270-4320-41fe-a980-d7d44305e884")
 			(effects
 				(font
 					(size 1 1)
@@ -3625,6 +4041,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cff135c-aef0-4dcf-b87e-68488677f196")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3823b95e-bebb-4c7f-acbb-0e18c05259d7")
 		(sheetname "/")
@@ -3784,6 +4213,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d424644-3ad6-4f86-8e95-972652d0023d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1095e83e-7741-4ef6-b26a-f8a25f5d996a")
 		(sheetname "/")
@@ -3897,7 +4339,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TLV1704AIPWR"
 			(at 0 3.45 0)
 			(layer "F.Fab")
 			(uuid "a23c17b2-505d-4947-8e5e-21cde9397667")
@@ -3908,7 +4350,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv1704"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3919,7 +4361,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad 2.2V-36V open-drain comparator, TSSOP-14"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3935,6 +4377,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f1814873-0838-4757-9ec8-e127d863a9c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fd6da8f-daa1-48e6-b31a-e9d924ce00a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TLV1704AIPWR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ddd688b-26d2-45ab-96a2-43fc1360d715")
 			(effects
 				(font
 					(size 1 1)
@@ -4391,6 +4859,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d170083-39c3-40a0-9298-f495e1552299")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bdb21a10-e659-445b-b729-7a0da408aa7f")
 		(sheetname "/")
@@ -4695,6 +5176,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c039e60-f0ef-4bef-a629-aa560344298a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a5391ed-1b2d-464f-b3da-8a0ac8afc614")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a8eeb61-dd8e-4d44-b6d7-5840804f05c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/cd4b18c6-dae7-467f-a7c2-65f245414b13")
 		(sheetname "/")
@@ -4831,7 +5351,7 @@
 				)
 			)
 		)
-		(property "Description" "10k ohm +/-20% single-turn cermet SMD trimmer potentiometer, 0.125W, 3mm square, top adjust"
+		(property "Description" "20k ohm +/-20% single-turn cermet SMD trimmer potentiometer, 0.125W, 3mm square, top adjust"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4856,7 +5376,7 @@
 				)
 			)
 		)
-		(property "MPN" "3313J-1-103E"
+		(property "MPN" "3313J-1-203E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4869,7 +5389,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C124616"
+		(property "LCSC Part" "C124621"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4882,12 +5402,25 @@
 				)
 			)
 		)
-		(property "Resistance" "10k"
+		(property "Resistance" "20k"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "93d34002-188c-456b-9446-508610afef08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3fcb1d9-c996-4a9b-b8c8-ac6e04565139")
 			(effects
 				(font
 					(size 1 1)
@@ -5129,7 +5662,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TLV1704AIPWR"
 			(at 0 3.45 0)
 			(layer "F.Fab")
 			(uuid "6fe9583e-3533-44f1-829e-218e8c90f281")
@@ -5140,7 +5673,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv1704"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5151,7 +5684,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad 2.2V-36V open-drain comparator, TSSOP-14"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5167,6 +5700,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1e5fa14e-1a5f-4904-a5a4-a8a13414cd7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a05c0c67-99c5-4f12-94bf-2a76c1e78dbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TLV1704AIPWR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f96c5b87-390f-46ff-b649-8bce9fa4d181")
 			(effects
 				(font
 					(size 1 1)
@@ -5623,6 +6182,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bea7140-9c2e-45f7-8805-7937132e82bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1f1ec784-76ec-43c3-a4aa-c3c529d24f8d")
 		(sheetname "/")
@@ -5774,6 +6346,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8c48a43a-a20e-4e2c-9cac-45fd0160ef59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6453d453-503b-42e0-a4bb-025a02b6a27a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6034244-9e8c-4ef6-90b7-63d4abe8a619")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b6de48b-2cf7-467e-87d2-f65d5eed373c")
 			(effects
 				(font
 					(size 1 1)
@@ -5978,7 +6589,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "VSSOP*")
+		(property ki_fp_filters "SN74LVC3G14DCUR*")
 		(path "/e4c757a7-6bf7-461b-bd69-3b592c10e41b")
 		(sheetname "/")
 		(sheetfile "bspd.kicad_sch")
@@ -6362,6 +6973,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3540bdef-3f73-42ac-bb87-312285d4ee89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1828d89f-97d0-4429-86d9-6f0215cf69bd")
 		(sheetname "/")
@@ -6520,6 +7144,45 @@
 				)
 			)
 		)
+		(property "Voltage" "25V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93f986c7-2e2c-495d-80d6-e9b0f004a25b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85eb2359-9c84-4e03-99b9-96f6ba6349e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9c6a737-fc40-4b48-91db-5002eab3ce76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f325b824-0829-420f-ae85-1de7be6b6b40")
 		(sheetname "/")
@@ -6671,6 +7334,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "81c4764b-5656-4809-881c-151bdb71630a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "259379d1-5287-4627-a237-956618d50fc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a73dbf5-7de5-4d0b-8d7e-796effcd7b3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc2e3cd0-1729-42a7-b663-84c369805f4e")
 			(effects
 				(font
 					(size 1 1)
@@ -7086,6 +7788,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d5bfbf98-cb59-45bc-b30c-c8d9c83a4dfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eea68c17-16c3-4e82-b6f0-72a7df62db25")
 			(effects
 				(font
 					(size 1 1)
@@ -7740,6 +8455,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e5ed96f-07d1-4f49-a1d8-f6013c8f874a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1957ac1b-23fe-4126-95f1-6ec27ddb6471")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "906c2147-0a55-4c20-abe7-3624154115ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/713910f7-ec3c-47d0-aaf0-c7bfe31a171e")
 		(sheetname "/")
@@ -7898,6 +8652,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac3de22e-ccb9-4355-a60e-c24e1c919efc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f19a8f6-053b-4f10-a1f6-23da90eb8527")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85e51a51-9c51-47f6-a6ff-798528266946")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a68bac41-455c-4499-a7c7-0a8284f7afee")
 		(sheetname "/")
@@ -8011,7 +8804,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TLV1704AIPWR"
 			(at 0 3.45 0)
 			(layer "F.Fab")
 			(uuid "4fb0c826-7d22-4833-b529-a6a98287096e")
@@ -8022,7 +8815,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv1704"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8033,7 +8826,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad 2.2V-36V open-drain comparator, TSSOP-14"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8049,6 +8842,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b1331dfb-ecbd-4048-b586-6ab37a74880d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc9c1cf2-a987-48d9-804e-860ca24f475a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TLV1704AIPWR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "944420c5-01cb-4325-a083-80a842d5cadd")
 			(effects
 				(font
 					(size 1 1)
@@ -8505,6 +9324,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6306daae-546e-4a78-9430-11d38d9ef136")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ebe4f145-0e1e-45d9-b712-fe9f369f60d8")
 		(sheetname "/")
@@ -8618,7 +9450,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TLV1704AIPWR"
 			(at 0 3.45 0)
 			(layer "F.Fab")
 			(uuid "159ec256-5768-46a6-ba33-986de5383cc5")
@@ -8629,7 +9461,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv1704"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8640,7 +9472,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad 2.2V-36V open-drain comparator, TSSOP-14"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8656,6 +9488,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0d0d5a2c-9b94-45df-8e02-e1d4688f78ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bfa0a06-4af8-4fb9-9400-a0026264578a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TLV1704AIPWR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c3b8ae4-0521-4c7a-8ea4-58e383c8dc96")
 			(effects
 				(font
 					(size 1 1)
@@ -9494,6 +10352,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e984822b-58c7-429c-b9e7-fc536d070ca7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49aff642-8f87-4811-9238-7158ca960f64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "119ece5d-2e59-44e2-b81d-765b34971573")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6251c799-51b4-4c23-9ea4-7e7fff941b96")
 		(sheetname "/")
@@ -9774,6 +10671,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2988ae90-408a-49d0-b542-227a27f58fdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bd450c7-1272-4917-8884-86304d01204f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2d98976-c7dd-4bfd-95d1-ecb4773482b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/aef1797f-006e-40cc-97ea-29985101b190")
 		(sheetname "/")
@@ -9925,6 +10861,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d397a080-c682-43e1-9705-0bf34308b713")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0b2f57a-558a-4938-82e0-fb9bb40d2f70")
 			(effects
 				(font
 					(size 1 1)
@@ -10236,6 +11185,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "975cb7bc-8237-403b-99bd-8c16c18d9cc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1d962d46-9390-4181-9e54-5bab26219115")
 		(sheetname "/")
@@ -10387,6 +11349,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ae489dd5-de6f-4298-a931-2e329f631d34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "528ae972-dc15-4550-bc1f-89f8ed60c65a")
 			(effects
 				(font
 					(size 1 1)
@@ -10552,6 +11527,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3ca3ff3-5bed-4355-a868-9c973cc57ac2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/475a587a-a741-40bd-8cdc-f86036db7fed")
 		(sheetname "/")
@@ -10710,6 +11698,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "967536b1-1168-4bfa-abe0-9bcef7027199")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b2622ba-3ba3-4d88-a34d-96694e1fac60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36b682bc-7fab-4e96-ba7b-3a0a39b2bc9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/54b676c8-8d3b-4e47-b976-4f067379d882")
 		(sheetname "/")
@@ -10846,7 +11873,7 @@
 				)
 			)
 		)
-		(property "Description" "10k ohm +/-20% single-turn cermet SMD trimmer potentiometer, 0.125W, 3mm square, top adjust"
+		(property "Description" "20k ohm +/-20% single-turn cermet SMD trimmer potentiometer, 0.125W, 3mm square, top adjust"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10871,7 +11898,7 @@
 				)
 			)
 		)
-		(property "MPN" "3313J-1-103E"
+		(property "MPN" "3313J-1-203E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10884,7 +11911,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C124616"
+		(property "LCSC Part" "C124621"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10897,12 +11924,25 @@
 				)
 			)
 		)
-		(property "Resistance" "10k"
+		(property "Resistance" "20k"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8af26a16-2139-42dc-84f9-2e97410d2eb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40cdb7cb-56d9-4d7a-8b50-248ed3e5aaa0")
 			(effects
 				(font
 					(size 1 1)
@@ -11167,7 +12207,7 @@
 				)
 			)
 		)
-		(property "Description" "10k ohm +/-20% single-turn cermet SMD trimmer potentiometer, 0.125W, 3mm square, top adjust"
+		(property "Description" "20k ohm +/-20% single-turn cermet SMD trimmer potentiometer, 0.125W, 3mm square, top adjust"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11192,7 +12232,7 @@
 				)
 			)
 		)
-		(property "MPN" "3313J-1-103E"
+		(property "MPN" "3313J-1-203E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11205,7 +12245,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C124616"
+		(property "LCSC Part" "C124621"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11218,12 +12258,25 @@
 				)
 			)
 		)
-		(property "Resistance" "10k"
+		(property "Resistance" "20k"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "21c80697-94a9-4a97-909d-688c839322d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a42b83c-0b24-4473-9abd-dee77dadfe9b")
 			(effects
 				(font
 					(size 1 1)
@@ -11488,7 +12541,7 @@
 				)
 			)
 		)
-		(property "Description" "10k ohm +/-20% single-turn cermet SMD trimmer potentiometer, 0.125W, 3mm square, top adjust"
+		(property "Description" "20k ohm +/-20% single-turn cermet SMD trimmer potentiometer, 0.125W, 3mm square, top adjust"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11513,7 +12566,7 @@
 				)
 			)
 		)
-		(property "MPN" "3313J-1-103E"
+		(property "MPN" "3313J-1-203E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11526,7 +12579,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C124616"
+		(property "LCSC Part" "C124621"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11539,12 +12592,25 @@
 				)
 			)
 		)
-		(property "Resistance" "10k"
+		(property "Resistance" "20k"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "24a108fd-911a-4c17-8580-54024c68d3a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eddaa3b6-9e56-4771-8d38-4482406ed5fa")
 			(effects
 				(font
 					(size 1 1)
@@ -13006,6 +14072,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5047be1-5037-4950-8b3e-4f5aeb036180")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1f3bc293-71d7-45e8-9b53-0d8a0e6155ca")
 		(sheetname "/")
@@ -13157,6 +14236,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a37a9d39-b6a5-4d89-836e-5af1436b35a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "723b2745-5e7a-47f7-8efd-545ffdbeeb9f")
 			(effects
 				(font
 					(size 1 1)
@@ -13468,6 +14560,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e50cc47f-c035-4583-b26c-a5a01f412788")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5a4621f2-4a63-47f1-9a05-e32279ed9a63")
 		(sheetname "/")
@@ -13619,6 +14724,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "66ad8a82-caa8-4a2c-9ba5-13c1c3083921")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "545223af-99f2-457e-9675-310998e214b1")
 			(effects
 				(font
 					(size 1 1)
@@ -14424,6 +15542,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd22d65b-996a-42d5-a627-33f1e9796360")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e2bf55f8-26ac-4223-a6bb-22a8d920f619")
 		(sheetname "/")
@@ -14575,6 +15706,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ceb407dc-2c57-4ec6-a7d8-81c898781dfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74b32bef-d56c-49b0-9846-6181361a08ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "157ce87b-4b7d-4ae7-98b2-903be7831451")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3f20a34-2bdc-4400-9a1e-8a82ece2e0b3")
 			(effects
 				(font
 					(size 1 1)
@@ -14740,6 +15910,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "034ff0f9-15c2-4622-8242-e9188ea563a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b55b6bf6-bf1a-4529-848b-b70216bc06ec")
 		(sheetname "/")
@@ -14891,6 +16074,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6fa50952-5295-436b-bae5-9e457b30a441")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0475ec4-f117-4c88-a5d0-d110764ae59e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccbac0c6-0220-41f8-bdc8-2a8873c9245d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bd719f2-b1cb-4b27-8e1b-a168b69e27eb")
 			(effects
 				(font
 					(size 1 1)
@@ -15354,6 +16576,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d72a6e0-1dcf-4dfb-9760-0745be16bdd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a4ed06b9-7f64-482b-9396-5594ee3dfd9f")
 		(sheetname "/")
@@ -15505,6 +16740,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d5f23999-29be-4c11-b0c3-5db4464aa425")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd1ebd1c-28d2-451d-8235-3ee7171f40b6")
 			(effects
 				(font
 					(size 1 1)
@@ -15809,6 +17057,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0eb91bc3-ea4c-4a6b-ac5a-526ac442f746")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7913df02-9275-4124-a3df-bed02e86cb7a")
 			(effects
 				(font
 					(size 1 1)
@@ -16550,6 +17811,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10cac362-d89a-45ad-a7ce-e38e3a680de4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/865ca456-1b64-4b68-b894-0eb691fb9c58")
 		(sheetname "/")
@@ -16708,6 +17982,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3d5849a-38e0-4b82-9f93-0e1c7f21fba4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/689158cf-9068-4a53-b983-517567c34438")
 		(sheetname "/")
@@ -16859,6 +18146,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ab10e054-5fd5-43f2-a9bb-99250c5758d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16d176a6-c311-405b-b1c4-b7863b640c85")
 			(effects
 				(font
 					(size 1 1)
@@ -17464,6 +18764,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65ccf8bd-f657-431b-b4b4-a60609164417")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bcc5ad17-e5b2-4bd9-baa4-0fe5aec186d6")
 		(sheetname "/")
@@ -17615,6 +18928,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5a28edb8-b6be-4670-9f0a-411748058d76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4cf53ee-42c0-444e-b247-c838be1d8295")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70d9d339-444c-4de0-a080-fcc76bce83c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59024db4-405e-4640-a7e6-5144dc0ce2e0")
 			(effects
 				(font
 					(size 1 1)
@@ -18104,6 +19456,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b1e4a0f-205b-42a5-9d74-6f1c9921457b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "269fcde1-d3ed-4427-a027-7fc6d4dff820")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13c5fc2f-a46d-4d7a-b232-1b7834f31e34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6b9a12de-92c2-4e8d-a21b-1d00f6e2382e")
 		(sheetname "/")
@@ -18534,6 +19925,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b774d10-5405-49c9-8a72-4b8ce9a3014f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ab060459-c916-43f9-85a3-350778ff1253")
 		(sheetname "/")
@@ -18686,6 +20090,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9c494422-8225-4c2d-b29c-82135ae9db33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f88c814-9b66-40a1-b9bf-eb97e9aa45bf")
 			(effects
 				(font
 					(size 1 1)
@@ -18890,10 +20307,24 @@
 				)
 			)
 		)
-		(property ki_fp_filters "VSSOP*")
+		(property ki_fp_filters "SN74LVC3G14DCUR*")
 		(path "/a3693667-60eb-494f-b077-fb8230e442b4")
 		(sheetname "/")
 		(sheetfile "bspd.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "8" "4" "7")
+			)
+			(unit
+				(name "B")
+				(pins "3" "5")
+			)
+			(unit
+				(name "C")
+				(pins "6" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19261,6 +20692,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f6295c4-c123-47cb-a9f7-9fa7ee5c200b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/103fd4f0-9ca3-4941-b730-0868401b50b0")
 		(sheetname "/")
@@ -19412,6 +20856,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5260955c-d377-4d99-b821-9634f658309f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55e9301e-3fe5-4190-9cb7-809a249c01ef")
 			(effects
 				(font
 					(size 1 1)
@@ -19827,6 +21284,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "085e8c8b-de41-4cf8-a2a7-85782b832aa3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78cf07b1-2ab3-4a2b-8e08-b76a552454db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8b78fd3-0e7c-49bf-8bcf-415563c26f31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26f130bd-9b6a-4ff8-875f-072baaf6f515")
 			(effects
 				(font
 					(size 1 1)
@@ -20637,6 +22133,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01784289-2fff-402b-b13c-f502a78d491d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6cc9855a-ed10-4cd7-85aa-ddd59be497fa")
 		(sheetname "/")
@@ -20941,6 +22450,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d6d2dfa-c91f-4759-a72c-ad98b8f50fb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a64a9863-2dcf-4e5f-880a-fb370f764d7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa0b3d07-9cf4-4e4d-91c1-42bfd1624d59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/49fe666c-5757-4bc5-9eee-31c3d8cb20e8")
 		(sheetname "/")
@@ -21099,6 +22647,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d93a06c-e4a6-4154-88f5-4699b4597ed2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e13a1a11-2ef2-44de-aac0-2ee0c3116403")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a10390c8-20db-4d41-86c7-78bc7f5b68eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0ec8cba5-6954-40e8-9fdd-8666bdb4b892")
 		(sheetname "/")
@@ -21250,6 +22837,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6bd3fdaa-ac1a-47ea-8a63-c7d295e46ba9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b198d1d4-3987-499a-bc0d-42cd1c5745de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e081e000-240c-45fb-a0e6-3ebadac8952c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9ff1148-d568-4b89-a50a-820280476f0c")
 			(effects
 				(font
 					(size 1 1)
@@ -21996,6 +23622,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f09b4b66-8b60-4db5-a34d-1f6772302959")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bccccc56-d483-4690-8b13-8cb73f9f4754")
 		(sheetname "/")
@@ -22154,6 +23793,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac85be2c-8254-4738-9cef-8285800f8fb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94ffa8b4-a24c-4ab5-96d5-4645941cfbae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61cfd5a2-1e37-4eb0-bffd-0baa05395345")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0767c5c2-a05a-4eb2-8734-9877a3cafa05")
 		(sheetname "/")
@@ -22305,6 +23983,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "12e28b43-2045-4281-8834-4bf38838e8d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e4a38af-027b-455f-94fc-193a20d3af3a")
 			(effects
 				(font
 					(size 1 1)
@@ -22596,6 +24287,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5be384a-f9b7-4c41-962f-3a38012cec22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ebcae3dc-a5d9-41fb-b54d-0c6c4561bf2f")
 		(sheetname "/")
@@ -22747,6 +24451,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fa6b69aa-bab6-4c45-bbae-323ea6cebd45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3729aa4-8829-4ab4-9e9a-1bdd3106c918")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93521cda-2583-425a-b276-4c5272a59754")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1dfa0b41-b8eb-41c0-a4e2-a3d8e0f25be4")
 			(effects
 				(font
 					(size 1 1)
@@ -23735,6 +25478,45 @@
 				)
 			)
 		)
+		(property "Voltage" "16V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45e4d75c-01ad-4c45-8f5a-39683805bade")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b9c50c5-d022-4af9-bfef-a25bad33a85e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42215ecc-9f5a-40d4-b84a-4fc84a895e18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9be345f9-bc22-4978-b8ab-124177e1d3df")
 		(sheetname "/")
@@ -24203,6 +25985,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "07021a62-4349-4f10-9ec5-f947fe688d16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ba93bbc-c731-427c-b635-3a4cf4a535c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ba94295-3573-47e9-8e74-6dfafcf8891f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04b0e0ad-2d1d-4e12-b048-89db1b6fe843")
 			(effects
 				(font
 					(size 1 1)
@@ -24734,6 +26555,19 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8fd3c6c-db4f-414e-ad6e-102d4191b3a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/35c0501d-548f-429f-a0a9-8528636a6e1a")
 		(sheetname "/")
@@ -24885,6 +26719,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "85881bd1-07d3-42eb-a75f-f982f58f31ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd6360e5-5e81-4855-acc4-309bf22d225e")
 			(effects
 				(font
 					(size 1 1)
@@ -25362,6 +27209,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "95e07563-360e-4486-844b-ed8896e3ce49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "811b0ef4-45d4-4e65-a600-48c080ba1465")
 			(effects
 				(font
 					(size 1 1)
@@ -48446,17 +50306,17 @@
 			(pts
 				(xy 86.392712 110.211181) (xy 86.404525 110.22127) (xy 86.477329 110.294074) (xy 86.477328 110.294074)
 				(xy 86.533278 110.350023) (xy 86.601796 110.389582) (xy 86.6018 110.389584) (xy 86.678224 110.410062)
-				(xy 86.678226 110.410063) (xy 86.678227 110.410063) (xy 86.757351 110.410063) (xy 88.693655 110.410063)
-				(xy 88.751846 110.42897) (xy 88.78781 110.47847) (xy 88.78781 110.539656) (xy 88.763659 110.579067)
-				(xy 88.280448 111.062278) (xy 88.225931 111.090055) (xy 88.210444 111.091274) (xy 86.9995 111.091274)
-				(xy 86.941309 111.072367) (xy 86.905345 111.022867) (xy 86.9005 110.992274) (xy 86.9005 110.987501)
-				(xy 86.900499 110.987499) (xy 86.900499 110.987497) (xy 86.897646 110.957075) (xy 86.852793 110.828892)
-				(xy 86.844459 110.8176) (xy 86.772154 110.719629) (xy 86.772152 110.719627) (xy 86.77215 110.719624)
-				(xy 86.772146 110.719621) (xy 86.772144 110.719619) (xy 86.662883 110.638981) (xy 86.534703 110.594129)
-				(xy 86.534694 110.594127) (xy 86.504274 110.591274) (xy 86.504266 110.591274) (xy 85.495734 110.591274)
-				(xy 85.495723 110.591274) (xy 85.470967 110.593596) (xy 85.411265 110.580205) (xy 85.370836 110.53428)
-				(xy 85.365123 110.473362) (xy 85.39172 110.425025) (xy 85.595476 110.22127) (xy 85.649992 110.193493)
-				(xy 85.665479 110.192274) (xy 86.334521 110.192274)
+				(xy 86.678226 110.410063) (xy 86.678227 110.410063) (xy 88.693655 110.410063) (xy 88.751846 110.42897)
+				(xy 88.78781 110.47847) (xy 88.78781 110.539656) (xy 88.763659 110.579067) (xy 88.280448 111.062278)
+				(xy 88.225931 111.090055) (xy 88.210444 111.091274) (xy 86.9995 111.091274) (xy 86.941309 111.072367)
+				(xy 86.905345 111.022867) (xy 86.9005 110.992274) (xy 86.9005 110.987501) (xy 86.900499 110.987499)
+				(xy 86.900499 110.987497) (xy 86.897646 110.957075) (xy 86.852793 110.828892) (xy 86.844459 110.8176)
+				(xy 86.772154 110.719629) (xy 86.772152 110.719627) (xy 86.77215 110.719624) (xy 86.772146 110.719621)
+				(xy 86.772144 110.719619) (xy 86.662883 110.638981) (xy 86.534703 110.594129) (xy 86.534694 110.594127)
+				(xy 86.504274 110.591274) (xy 86.504266 110.591274) (xy 85.495734 110.591274) (xy 85.495723 110.591274)
+				(xy 85.470967 110.593596) (xy 85.411265 110.580205) (xy 85.370836 110.53428) (xy 85.365123 110.473362)
+				(xy 85.39172 110.425025) (xy 85.595476 110.22127) (xy 85.649992 110.193493) (xy 85.665479 110.192274)
+				(xy 86.334521 110.192274)
 			)
 		)
 		(filled_polygon
