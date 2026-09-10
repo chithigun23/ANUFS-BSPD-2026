@@ -376,7 +376,7 @@
 		(uuid "a9b68377-a73f-42bd-8387-5f0cf652b14c")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/DT13-6P.step"
+	(model "${KIPRJMOD}/bspd-library/3d/DT13-6P.step"
 		(offset
 			(xyz -30 2 18)
 		)

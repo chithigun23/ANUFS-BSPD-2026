@@ -322,7 +322,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/TLV1704.step"
+	(model "${KIPRJMOD}/bspd-library/3d/TLV1704.step"
 		(offset
 			(xyz 0 0 0)
 		)

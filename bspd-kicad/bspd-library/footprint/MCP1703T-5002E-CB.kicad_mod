@@ -301,7 +301,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/MCP1703T-5002E-CB.step"
+	(model "${KIPRJMOD}/bspd-library/3d/MCP1703T-5002E-CB.step"
 		(offset
 			(xyz 0 0 0)
 		)

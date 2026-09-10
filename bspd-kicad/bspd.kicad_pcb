@@ -644,7 +644,7 @@
 			(uuid "dee75c68-6d6e-479b-9917-62cb8d111e8f")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/3313J-1-103E.step"
+		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-103E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2742,7 +2742,7 @@
 			(uuid "096f1c1b-f16b-4991-a965-143780c4d481")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/AP2012EC.step"
+		(model "${KIPRJMOD}/bspd-library/3d/AP2012EC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4785,7 +4785,7 @@
 			(uuid "f55a96b5-8daa-4eb8-b61b-17f7695ca03f")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/TLV1704.step"
+		(model "${KIPRJMOD}/bspd-library/3d/TLV1704.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5633,7 +5633,7 @@
 			(uuid "6f98017b-fdb9-4dd8-b6d8-be41412dd31d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/3313J-1-103E.step"
+		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-103E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6108,7 +6108,7 @@
 			(uuid "270bcf6c-a212-418c-993b-90e9af662c7f")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/TLV1704.step"
+		(model "${KIPRJMOD}/bspd-library/3d/TLV1704.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6899,7 +6899,7 @@
 			(uuid "37373a97-f837-4c04-b755-267395aa5754")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/SN74LVC3G14DCUR.step"
+		(model "${KIPRJMOD}/bspd-library/3d/SN74LVC3G14DCUR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7721,7 +7721,7 @@
 			(uuid "c5a6aed1-3ea4-4285-9422-e79594f3f46b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/AP2012EC.step"
+		(model "${KIPRJMOD}/bspd-library/3d/AP2012EC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8381,7 +8381,7 @@
 			(uuid "8b0fc0f5-dd98-4703-94c7-908dec1a4f9e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/SN74HC74DR.step"
+		(model "${KIPRJMOD}/bspd-library/3d/SN74HC74DR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9250,7 +9250,7 @@
 			(uuid "714ec2e6-7905-4da6-a085-5671705f7990")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/TLV1704.step"
+		(model "${KIPRJMOD}/bspd-library/3d/TLV1704.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9896,7 +9896,7 @@
 			(uuid "a266a126-f474-4ec2-9490-0053d1f2bfcb")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/TLV1704.step"
+		(model "${KIPRJMOD}/bspd-library/3d/TLV1704.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12155,7 +12155,7 @@
 			(uuid "d89b5240-840f-4dc2-b00d-23fecd61ba76")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/3313J-1-103E.step"
+		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-103E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12489,7 +12489,7 @@
 			(uuid "4b9e401b-c3b5-410d-8429-bd725f45e290")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/3313J-1-103E.step"
+		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-103E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12823,7 +12823,7 @@
 			(uuid "2d7d9c74-4444-4856-b3d6-d6319af95544")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/3313J-1-103E.step"
+		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-103E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17418,7 +17418,7 @@
 			(uuid "29ddb97b-c2eb-4268-9576-c75567483aac")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/AP2012EC.step"
+		(model "${KIPRJMOD}/bspd-library/3d/AP2012EC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17737,7 +17737,7 @@
 			(uuid "7e91aa7f-4a30-4b2c-a7d0-a888d210f9a9")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/SMBJ16A.step"
+		(model "${KIPRJMOD}/bspd-library/3d/SMBJ16A.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18567,7 +18567,7 @@
 			(uuid "41707b60-468c-44e0-b1f4-d6dd5ef12dbd")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/CJS-1200TB1.step"
+		(model "${KIPRJMOD}/bspd-library/3d/CJS-1200TB1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20617,7 +20617,7 @@
 			(uuid "a62ca4ca-37a4-4deb-a857-dda0c04cd8a6")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/SN74LVC3G14DCUR.step"
+		(model "${KIPRJMOD}/bspd-library/3d/SN74LVC3G14DCUR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21217,7 +21217,7 @@
 			(uuid "ead29901-feaf-4b96-bc11-c4ace486004e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/AP2012EC.step"
+		(model "${KIPRJMOD}/bspd-library/3d/AP2012EC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21815,7 +21815,7 @@
 			(uuid "1dacf44d-f784-423e-abf9-89f57483148c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/SN74LVC2G14DBVR.step"
+		(model "${KIPRJMOD}/bspd-library/3d/SN74LVC2G14DBVR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22059,7 +22059,7 @@
 			(uuid "ef6ce9c2-3ab4-4788-9356-6e9fed4a2125")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/AP2012EC.step"
+		(model "${KIPRJMOD}/bspd-library/3d/AP2012EC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23224,7 +23224,7 @@
 			(uuid "b64a2e3e-6fd3-45e8-98c1-cfe72bbd99ca")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/AP2012EC.step"
+		(model "${KIPRJMOD}/bspd-library/3d/AP2012EC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25022,7 +25022,7 @@
 			(uuid "e40c5ff1-00b7-4eba-addf-a343e81b2a25")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/S1B-13-F.step"
+		(model "${KIPRJMOD}/bspd-library/3d/S1B-13-F.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25918,7 +25918,7 @@
 			(uuid "3fdb261c-e63e-4a03-9faf-c8bdd78b42b7")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/CJS-1200TB1.step"
+		(model "${KIPRJMOD}/bspd-library/3d/CJS-1200TB1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26359,7 +26359,7 @@
 			(uuid "11e793d4-a759-419d-b790-ab5eda5a06a5")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/AP2012EC.step"
+		(model "${KIPRJMOD}/bspd-library/3d/AP2012EC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27142,7 +27142,7 @@
 			(uuid "6db848c5-3852-4c3d-a694-2ade461be63e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/S1B-13-F.step"
+		(model "${KIPRJMOD}/bspd-library/3d/S1B-13-F.step"
 			(offset
 				(xyz 0 0 0)
 			)

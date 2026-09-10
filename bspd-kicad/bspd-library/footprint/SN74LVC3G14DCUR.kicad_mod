@@ -335,7 +335,7 @@
 		(uuid "f5cc01b4-9f67-4b74-8918-1d6f7aea072d")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/SN74LVC3G14DCUR.step"
+	(model "${KIPRJMOD}/bspd-library/3d/SN74LVC3G14DCUR.step"
 		(offset
 			(xyz 0 0 0)
 		)

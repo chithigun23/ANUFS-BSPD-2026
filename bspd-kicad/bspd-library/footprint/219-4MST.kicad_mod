@@ -524,7 +524,7 @@
 		(layer "F.Fab")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/219-4MST.step"
+	(model "${KIPRJMOD}/bspd-library/3d/219-4MST.step"
 		(offset
 			(xyz 0 0 0)
 		)

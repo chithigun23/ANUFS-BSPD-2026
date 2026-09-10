@@ -670,7 +670,7 @@
 		(uuid "ea299cbf-ff32-464d-9f07-61b0dc75faf8")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/TLV3202AQDGKRQ1.stp"
+	(model "${KIPRJMOD}/bspd-library/3d/TLV3202AQDGKRQ1.stp"
 		(offset
 			(xyz 0 0 0)
 		)

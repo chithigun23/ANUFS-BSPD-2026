@@ -246,7 +246,7 @@
 		(uuid "f9965d4c-f5b5-4d8b-8742-a0bf13700df4")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/CJS-1200TB1.step"
+	(model "${KIPRJMOD}/bspd-library/3d/CJS-1200TB1.step"
 		(offset
 			(xyz 0 0 0)
 		)
