@@ -32632,7 +32632,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "4.5V"
+	(gr_text "4.7V"
 		(at 62.016584 132.945588 0)
 		(layer "F.SilkS")
 		(uuid "147f2239-e3b7-4069-a1c2-0bf79aa0ed6c")
