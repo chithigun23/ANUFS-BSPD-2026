@@ -35,6 +35,7 @@
       "vias",
       "footprint_text",
       "ratsnest",
+      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
