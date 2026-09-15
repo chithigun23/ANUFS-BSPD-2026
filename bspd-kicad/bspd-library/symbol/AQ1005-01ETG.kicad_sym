@@ -35,7 +35,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bspd:AQ1005-01ETG"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

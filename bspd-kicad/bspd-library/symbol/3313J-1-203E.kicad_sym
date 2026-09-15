@@ -32,7 +32,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bspd:3313J-1-103E"
+		(property "Footprint" "bspd:3313J-1-203E"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

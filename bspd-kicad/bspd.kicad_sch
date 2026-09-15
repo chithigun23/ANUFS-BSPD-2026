@@ -1926,7 +1926,7 @@
 					)
 				)
 			)
-			(property "Footprint" "bspd:3313J-1-103E"
+			(property "Footprint" "bspd:3313J-1-203E"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2365,7 +2365,7 @@
 					)
 				)
 			)
-			(property "Footprint" "bspd:AQ1005-01ETG"
+			(property "Footprint" "Diode_SMD:D_SOD-882"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -22114,7 +22114,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bspd:3313J-1-103E"
+		(property "Footprint" "bspd:3313J-1-203E"
 			(at 326.39 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -27670,7 +27670,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bspd:3313J-1-103E"
+		(property "Footprint" "bspd:3313J-1-203E"
 			(at 326.39 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -28900,7 +28900,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bspd:3313J-1-103E"
+		(property "Footprint" "bspd:3313J-1-203E"
 			(at 289.56 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -31750,7 +31750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bspd:3313J-1-103E"
+		(property "Footprint" "bspd:3313J-1-203E"
 			(at 364.49 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -35684,7 +35684,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bspd:3313J-1-103E"
+		(property "Footprint" "bspd:3313J-1-203E"
 			(at 288.29 153.67 0)
 			(hide yes)
 			(show_name no)

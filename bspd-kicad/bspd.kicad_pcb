@@ -322,11 +322,11 @@
 			)
 		)
 	)
-	(footprint "bspd:3313J-1-103E"
+	(footprint "bspd:3313J-1-203E"
 		(layer "F.Cu")
 		(uuid "021280db-ff15-455a-a63f-7c0222d8db0c")
 		(at 72.783604 137.684024)
-		(descr "Bourns 3313J-1-103E, 3mm square single-turn cermet SMD trimmer potentiometer, 10k ohm, top adjust. Land pattern per Bourns 3313 datasheet (3313J style). https://www.bourns.com/docs/Product-Datasheets/3313.pdf")
+		(descr "Bourns 3313J-1-203E, 3mm square single-turn cermet SMD trimmer potentiometer, 10k ohm, top adjust. Land pattern per Bourns 3313 datasheet (3313J style). https://www.bourns.com/docs/Product-Datasheets/3313.pdf")
 		(tags "trimmer potentiometer trimpot Bourns 3313 3313J SMD 10k")
 		(property "Reference" "RV2"
 			(at 0.05 3.55 0)
@@ -644,7 +644,7 @@
 			(uuid "dee75c68-6d6e-479b-9917-62cb8d111e8f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-103E.step"
+		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-203E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5311,11 +5311,11 @@
 			)
 		)
 	)
-	(footprint "bspd:3313J-1-103E"
+	(footprint "bspd:3313J-1-203E"
 		(layer "F.Cu")
 		(uuid "33a71c2d-1ac1-4264-b0b1-4f034336e1a5")
 		(at 77.733604 137.684024)
-		(descr "Bourns 3313J-1-103E, 3mm square single-turn cermet SMD trimmer potentiometer, 10k ohm, top adjust. Land pattern per Bourns 3313 datasheet (3313J style). https://www.bourns.com/docs/Product-Datasheets/3313.pdf")
+		(descr "Bourns 3313J-1-203E, 3mm square single-turn cermet SMD trimmer potentiometer, 10k ohm, top adjust. Land pattern per Bourns 3313 datasheet (3313J style). https://www.bourns.com/docs/Product-Datasheets/3313.pdf")
 		(tags "trimmer potentiometer trimpot Bourns 3313 3313J SMD 10k")
 		(property "Reference" "RV3"
 			(at 0.05 3.55 0)
@@ -5633,7 +5633,7 @@
 			(uuid "6f98017b-fdb9-4dd8-b6d8-be41412dd31d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-103E.step"
+		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-203E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11991,11 +11991,11 @@
 			)
 		)
 	)
-	(footprint "bspd:3313J-1-103E"
+	(footprint "bspd:3313J-1-203E"
 		(layer "F.Cu")
 		(uuid "6a92e0ce-588a-4dbc-8b72-cf021f3f9ddb")
 		(at 87.608604 137.684024)
-		(descr "Bourns 3313J-1-103E, 3mm square single-turn cermet SMD trimmer potentiometer, 10k ohm, top adjust. Land pattern per Bourns 3313 datasheet (3313J style). https://www.bourns.com/docs/Product-Datasheets/3313.pdf")
+		(descr "Bourns 3313J-1-203E, 3mm square single-turn cermet SMD trimmer potentiometer, 10k ohm, top adjust. Land pattern per Bourns 3313 datasheet (3313J style). https://www.bourns.com/docs/Product-Datasheets/3313.pdf")
 		(tags "trimmer potentiometer trimpot Bourns 3313 3313J SMD 10k")
 		(property "Reference" "RV5"
 			(at 0.05 3.55 0)
@@ -12313,7 +12313,7 @@
 			(uuid "d89b5240-840f-4dc2-b00d-23fecd61ba76")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-103E.step"
+		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-203E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12325,11 +12325,11 @@
 			)
 		)
 	)
-	(footprint "bspd:3313J-1-103E"
+	(footprint "bspd:3313J-1-203E"
 		(layer "F.Cu")
 		(uuid "6bf3f487-60cd-4eb6-b797-416f9c949b3b")
 		(at 82.658604 137.684024)
-		(descr "Bourns 3313J-1-103E, 3mm square single-turn cermet SMD trimmer potentiometer, 10k ohm, top adjust. Land pattern per Bourns 3313 datasheet (3313J style). https://www.bourns.com/docs/Product-Datasheets/3313.pdf")
+		(descr "Bourns 3313J-1-203E, 3mm square single-turn cermet SMD trimmer potentiometer, 10k ohm, top adjust. Land pattern per Bourns 3313 datasheet (3313J style). https://www.bourns.com/docs/Product-Datasheets/3313.pdf")
 		(tags "trimmer potentiometer trimpot Bourns 3313 3313J SMD 10k")
 		(property "Reference" "RV4"
 			(at 0.05 3.55 0)
@@ -12647,7 +12647,7 @@
 			(uuid "4b9e401b-c3b5-410d-8429-bd725f45e290")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-103E.step"
+		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-203E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12659,11 +12659,11 @@
 			)
 		)
 	)
-	(footprint "bspd:3313J-1-103E"
+	(footprint "bspd:3313J-1-203E"
 		(layer "F.Cu")
 		(uuid "6c7ee606-80df-480a-b55a-4b613a18fd75")
 		(at 67.833604 137.684024)
-		(descr "Bourns 3313J-1-103E, 3mm square single-turn cermet SMD trimmer potentiometer, 10k ohm, top adjust. Land pattern per Bourns 3313 datasheet (3313J style). https://www.bourns.com/docs/Product-Datasheets/3313.pdf")
+		(descr "Bourns 3313J-1-203E, 3mm square single-turn cermet SMD trimmer potentiometer, 10k ohm, top adjust. Land pattern per Bourns 3313 datasheet (3313J style). https://www.bourns.com/docs/Product-Datasheets/3313.pdf")
 		(tags "trimmer potentiometer trimpot Bourns 3313 3313J SMD 10k")
 		(property "Reference" "RV1"
 			(at 0.05 3.55 0)
@@ -12981,7 +12981,7 @@
 			(uuid "2d7d9c74-4444-4856-b3d6-d6319af95544")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-103E.step"
+		(model "${KIPRJMOD}/bspd-library/3d/3313J-1-203E.step"
 			(offset
 				(xyz 0 0 0)
 			)
