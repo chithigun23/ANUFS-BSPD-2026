@@ -34018,7 +34018,7 @@
 			)
 		)
 		(property "Value" "TLV1704AIPWR"
-			(at 204.47 77.47 0)
+			(at 196.596 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

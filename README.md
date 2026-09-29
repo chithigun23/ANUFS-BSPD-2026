@@ -59,6 +59,6 @@ The U7 Schmitt-trigger circuit with R32/C19/C20 generates the power-on preset. T
 - [PCB layout](bspd-kicad/bspd.kicad_pcb)
 - [Bill of materials](BSPD_DigiKey_BOM.xlsx)
 
-## Attrobitom
+## Attribution
 
 Animation generated using [Dashmotion](https://github.com/csthink/dashmotion) (MIT); attribution is retained in [docs/DASHMOTION-LICENSE.txt](docs/DASHMOTION-LICENSE.txt). The diagram assets have no external runtime dependencies.
