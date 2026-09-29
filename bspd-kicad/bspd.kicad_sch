@@ -3303,6 +3303,609 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bspd:SN74AHC14DBR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74AHC14DBR"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bspd:SN74AHC14DBR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/sn74ahc14"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Texas Instruments SN74AHC14DBR, hex inverter with Schmitt-trigger inputs, 2V to 5.5V, SSOP-14 (DB)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "HCMOS not inverter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN74AHC14DBR_1_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AHC14DBR_1_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74AHC14DBR_2_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AHC14DBR_2_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74AHC14DBR_3_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AHC14DBR_3_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74AHC14DBR_4_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AHC14DBR_4_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74AHC14DBR_5_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AHC14DBR_5_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74AHC14DBR_6_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AHC14DBR_6_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74AHC14DBR_7_0"
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AHC14DBR_7_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bspd:SN74HC74DR"
 			(pin_names
 				(offset 1.016)
@@ -4012,383 +4615,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "bspd:SN74LVC3G14DCUR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SN74LVC3G14DCUR"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "bspd:SN74LVC3G14DCUR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc3g14"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Triple Schmitt-trigger inverter, 1.65V-5.5V, VSSOP-8 (DCU)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SN74LVC3G14DCUR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C98856"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Schmitt trigger inverter triple gate logic LVC 74LVC3G14"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SN74LVC3G14DCUR*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SN74LVC3G14DCUR_1_1"
-				(polyline
-					(pts
-						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 0 180)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SN74LVC3G14DCUR_2_1"
-				(polyline
-					(pts
-						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 0 180)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SN74LVC3G14DCUR_3_1"
-				(polyline
-					(pts
-						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin output inverted
-					(at 12.7 0 180)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5316,7 +5542,7 @@
 	)
 	(rectangle
 		(start 34.29 189.23)
-		(end 168.91 278.13)
+		(end 168.91 317.5)
 		(stroke
 			(width 0)
 			(type default)
@@ -6050,12 +6276,6 @@
 		(uuid "6ac5fae4-ef7d-490c-88e0-89f1f2efaeeb")
 	)
 	(junction
-		(at 256.54 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ad2abb9-483c-4254-9450-1d291e484d80")
-	)
-	(junction
 		(at 205.74 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6198,12 +6418,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc48d209-34de-48e8-a1fa-0bd0a5c05fdd")
-	)
-	(junction
-		(at 256.54 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d46b3faa-12f2-4346-ac6f-ccbc84521743")
 	)
 	(junction
 		(at 246.38 116.84)
@@ -6397,6 +6611,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 261.62) (xy 121.92 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07994f90-2028-4092-9ea0-92945cb2148a")
+	)
+	(wire
+		(pts
 			(xy 205.74 222.25) (xy 205.74 226.06)
 		)
 		(stroke
@@ -6437,6 +6661,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 242.57) (xy 123.19 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7d905e-b437-44f1-935c-e0acda8a7740")
+	)
+	(wire
+		(pts
 			(xy 128.27 120.65) (xy 128.27 134.62)
 		)
 		(stroke
@@ -6464,16 +6698,6 @@
 			(type default)
 		)
 		(uuid "0f501f1f-5e8b-4a68-98c0-075f050aaecb")
-	)
-	(wire
-		(pts
-			(xy 269.24 222.25) (xy 269.24 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f6bc64a-c1c1-4f91-8acc-dfab63bc94af")
 	)
 	(wire
 		(pts
@@ -6824,6 +7048,16 @@
 			(type default)
 		)
 		(uuid "2905e0a4-13ee-45eb-b763-fd7b98201f4e")
+	)
+	(wire
+		(pts
+			(xy 71.12 242.57) (xy 77.47 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a02abf1-57f7-4d0f-b5cf-d3a6b42b6d9c")
 	)
 	(wire
 		(pts
@@ -7307,13 +7541,13 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 212.09) (xy 269.24 214.63)
+			(xy 138.43 242.57) (xy 144.78 242.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60eb91d8-3a52-4489-ac94-a730b591df08")
+		(uuid "5e4d2e91-de7a-4ebc-ac6e-3df278511e0e")
 	)
 	(wire
 		(pts
@@ -7384,6 +7618,16 @@
 			(type default)
 		)
 		(uuid "66f26bac-5f83-4fce-9390-573be22f1de6")
+	)
+	(wire
+		(pts
+			(xy 50.8 262.89) (xy 55.88 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69eab1ee-e6c3-4b4a-9c3d-aa324c0acf6d")
 	)
 	(wire
 		(pts
@@ -7517,6 +7761,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 219.71) (xy 144.78 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76818101-ef77-4ba0-bf30-84a0f8537a47")
+	)
+	(wire
+		(pts
 			(xy 231.14 212.09) (xy 231.14 214.63)
 		)
 		(stroke
@@ -7564,6 +7818,16 @@
 			(type default)
 		)
 		(uuid "7b206a77-48d9-45a8-a2ac-c313bdc83be3")
+	)
+	(wire
+		(pts
+			(xy 49.53 242.57) (xy 55.88 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb0750b-adf7-4d4f-8efe-837d94c92b99")
 	)
 	(wire
 		(pts
@@ -7827,6 +8091,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 261.62) (xy 144.78 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8cf337-b084-47b5-8378-fbe75cdd5064")
+	)
+	(wire
+		(pts
 			(xy 193.04 212.09) (xy 193.04 214.63)
 		)
 		(stroke
@@ -7874,6 +8148,16 @@
 			(type default)
 		)
 		(uuid "9e83e191-bab2-4f06-a859-5ded54e7d4fa")
+	)
+	(wire
+		(pts
+			(xy 71.12 262.89) (xy 78.74 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe2b007-bbef-42f6-8ce1-1014a3d8f359")
 	)
 	(wire
 		(pts
@@ -8537,16 +8821,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 226.06) (xy 269.24 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e93a785e-d1aa-4cda-bc54-035d72753b51")
-	)
-	(wire
-		(pts
 			(xy 270.51 49.53) (xy 269.24 49.53)
 		)
 		(stroke
@@ -8577,6 +8851,26 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 218.44) (xy 57.15 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb37df08-6f35-46da-900a-39fd40aa1526")
+	)
+	(wire
+		(pts
+			(xy 116.84 219.71) (xy 121.92 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc09e0d-c0c3-4106-b176-7b9661d81d54")
+	)
+	(wire
+		(pts
 			(xy 378.46 44.45) (xy 378.46 45.72)
 		)
 		(stroke
@@ -8604,6 +8898,16 @@
 			(type default)
 		)
 		(uuid "eec24a5d-ea6a-4d22-a18c-d08815a837ae")
+	)
+	(wire
+		(pts
+			(xy 72.39 218.44) (xy 78.74 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc36df8-841b-42ea-afae-008233e405ba")
 	)
 	(wire
 		(pts
@@ -8814,16 +9118,6 @@
 			(type default)
 		)
 		(uuid "fcd822d7-568f-4a11-b871-472bffa54d4c")
-	)
-	(wire
-		(pts
-			(xy 256.54 212.09) (xy 269.24 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe272d1a-10ab-4dd2-b984-1b95ab78cd65")
 	)
 	(wire
 		(pts
@@ -21419,6 +21713,122 @@
 		)
 	)
 	(symbol
+		(lib_id "bspd:SN74AHC14DBR")
+		(at 64.77 218.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d1d50ca-75b8-41b6-92db-61121d509797")
+		(property "Reference" "U10"
+			(at 64.77 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC14DBR"
+			(at 64.77 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bspd:SN74AHC14DBR"
+			(at 64.77 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74ahc14"
+			(at 64.77 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Texas Instruments SN74AHC14DBR, hex inverter with Schmitt-trigger inputs, 2V to 5.5V, SSOP-14 (DB)"
+			(at 64.77 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5936a3fb-d3cc-4204-afa7-292cf55a19ca")
+		)
+		(pin "5"
+			(uuid "82726c96-93d0-4f03-8d38-c82b60e05ac9")
+		)
+		(pin "4"
+			(uuid "9ac311ea-bc7c-4019-b9be-e3804e9da233")
+		)
+		(pin "8"
+			(uuid "06387f73-9c37-4193-9171-1224da531155")
+		)
+		(pin "9"
+			(uuid "6c439787-3f7f-4611-a80c-37db3e9643ca")
+		)
+		(pin "6"
+			(uuid "5e6dbb4b-5be9-4694-9abb-223c21753f82")
+		)
+		(pin "2"
+			(uuid "00be9bcc-b3f7-4e95-b231-d68e30f288c4")
+		)
+		(pin "1"
+			(uuid "d23ffb74-cc86-416e-af8e-271596b8da84")
+		)
+		(pin "11"
+			(uuid "90c364f7-068c-423e-854c-a0099b13f69d")
+		)
+		(pin "10"
+			(uuid "f805f09f-286b-4067-b0ea-170a7d2e444b")
+		)
+		(pin "14"
+			(uuid "854e0159-be38-4b6b-b827-2c6132115822")
+		)
+		(pin "12"
+			(uuid "6afe8a9c-e451-4ea7-b56f-aa6e9b0892ed")
+		)
+		(pin "13"
+			(uuid "b129f8aa-ca75-4bb9-90ff-f48f54d002aa")
+		)
+		(pin "7"
+			(uuid "8fd5ab7c-9a6d-43ab-9a0b-9ab104fba45c")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 203.2 121.92 0)
 		(unit 1)
@@ -22376,6 +22786,122 @@
 		)
 	)
 	(symbol
+		(lib_id "bspd:SN74AHC14DBR")
+		(at 63.5 262.89 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2374be1a-e1e1-4bbe-a954-7bd380d7ff75")
+		(property "Reference" "U10"
+			(at 63.5 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC14DBR"
+			(at 63.5 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bspd:SN74AHC14DBR"
+			(at 63.5 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74ahc14"
+			(at 63.5 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Texas Instruments SN74AHC14DBR, hex inverter with Schmitt-trigger inputs, 2V to 5.5V, SSOP-14 (DB)"
+			(at 63.5 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5936a3fb-d3cc-4204-afa7-292cf55a19ca")
+		)
+		(pin "5"
+			(uuid "82726c96-93d0-4f03-8d38-c82b60e05ac9")
+		)
+		(pin "4"
+			(uuid "9ac311ea-bc7c-4019-b9be-e3804e9da233")
+		)
+		(pin "8"
+			(uuid "06387f73-9c37-4193-9171-1224da531155")
+		)
+		(pin "9"
+			(uuid "6c439787-3f7f-4611-a80c-37db3e9643ca")
+		)
+		(pin "6"
+			(uuid "5e6dbb4b-5be9-4694-9abb-223c21753f82")
+		)
+		(pin "2"
+			(uuid "00be9bcc-b3f7-4e95-b231-d68e30f288c4")
+		)
+		(pin "1"
+			(uuid "d23ffb74-cc86-416e-af8e-271596b8da84")
+		)
+		(pin "11"
+			(uuid "90c364f7-068c-423e-854c-a0099b13f69d")
+		)
+		(pin "10"
+			(uuid "f805f09f-286b-4067-b0ea-170a7d2e444b")
+		)
+		(pin "14"
+			(uuid "854e0159-be38-4b6b-b827-2c6132115822")
+		)
+		(pin "12"
+			(uuid "6afe8a9c-e451-4ea7-b56f-aa6e9b0892ed")
+		)
+		(pin "13"
+			(uuid "b129f8aa-ca75-4bb9-90ff-f48f54d002aa")
+		)
+		(pin "7"
+			(uuid "8fd5ab7c-9a6d-43ab-9a0b-9ab104fba45c")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U10")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bspd:TLV1704")
 		(at 133.35 97.79 0)
 		(unit 4)
@@ -23287,121 +23813,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 269.24 218.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f64a787-8e37-4c64-bdd5-130f64cbca12")
-		(property "Reference" "C28"
-			(at 273.05 217.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 273.05 219.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 270.2052 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 269.24 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 269.24 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 269.24 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 269.24 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da2a94a4-b93d-4ec2-9dd8-acc34dd07f0a")
-		)
-		(pin "2"
-			(uuid "e749ea00-b433-43e0-8c5b-a662d8b72a9e")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bspd:GND_Earth")
 		(at 224.79 228.6 0)
 		(unit 1)
@@ -24012,6 +24423,122 @@
 		)
 	)
 	(symbol
+		(lib_id "bspd:SN74AHC14DBR")
+		(at 129.54 219.71 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "335ad168-4565-4967-829b-7bce7020763a")
+		(property "Reference" "U10"
+			(at 129.54 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC14DBR"
+			(at 129.54 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bspd:SN74AHC14DBR"
+			(at 129.54 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74ahc14"
+			(at 129.54 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Texas Instruments SN74AHC14DBR, hex inverter with Schmitt-trigger inputs, 2V to 5.5V, SSOP-14 (DB)"
+			(at 129.54 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5936a3fb-d3cc-4204-afa7-292cf55a19ca")
+		)
+		(pin "5"
+			(uuid "82726c96-93d0-4f03-8d38-c82b60e05ac9")
+		)
+		(pin "4"
+			(uuid "9ac311ea-bc7c-4019-b9be-e3804e9da233")
+		)
+		(pin "8"
+			(uuid "06387f73-9c37-4193-9171-1224da531155")
+		)
+		(pin "9"
+			(uuid "6c439787-3f7f-4611-a80c-37db3e9643ca")
+		)
+		(pin "6"
+			(uuid "5e6dbb4b-5be9-4694-9abb-223c21753f82")
+		)
+		(pin "2"
+			(uuid "00be9bcc-b3f7-4e95-b231-d68e30f288c4")
+		)
+		(pin "1"
+			(uuid "d23ffb74-cc86-416e-af8e-271596b8da84")
+		)
+		(pin "11"
+			(uuid "90c364f7-068c-423e-854c-a0099b13f69d")
+		)
+		(pin "10"
+			(uuid "f805f09f-286b-4067-b0ea-170a7d2e444b")
+		)
+		(pin "14"
+			(uuid "854e0159-be38-4b6b-b827-2c6132115822")
+		)
+		(pin "12"
+			(uuid "6afe8a9c-e451-4ea7-b56f-aa6e9b0892ed")
+		)
+		(pin "13"
+			(uuid "b129f8aa-ca75-4bb9-90ff-f48f54d002aa")
+		)
+		(pin "7"
+			(uuid "8fd5ab7c-9a6d-43ab-9a0b-9ab104fba45c")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U10")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 369.57 182.88 180)
 		(unit 1)
@@ -24445,7 +24972,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 60.96 208.28 0)
+		(at 52.07 281.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24455,7 +24982,7 @@
 		(dnp no)
 		(uuid "38841bab-1dc9-4692-a668-70a87ce9f898")
 		(property "Reference" "#PWR089"
-			(at 60.96 212.09 0)
+			(at 52.07 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24466,7 +24993,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 60.96 204.724 0)
+			(at 52.07 278.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24476,7 +25003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 208.28 0)
+			(at 52.07 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24487,7 +25014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 208.28 0)
+			(at 52.07 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24498,7 +25025,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 60.96 208.28 0)
+			(at 52.07 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29116,83 +29643,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 127 209.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6bdb6a0d-6b05-45fd-a957-69b0d0bdcd65")
-		(property "Reference" "#PWR091"
-			(at 127 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 127 205.994 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 127 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "117d4b6a-7e74-4137-9d2d-fbd6234d4f9b")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bspd:3313J-1-203E")
 		(at 326.39 129.54 0)
 		(unit 1)
@@ -30839,8 +31289,124 @@
 		)
 	)
 	(symbol
+		(lib_id "bspd:SN74AHC14DBR")
+		(at 63.5 242.57 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b5284a8-1565-4e37-a646-dfaf02568901")
+		(property "Reference" "U10"
+			(at 63.5 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC14DBR"
+			(at 63.5 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bspd:SN74AHC14DBR"
+			(at 63.5 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74ahc14"
+			(at 63.5 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Texas Instruments SN74AHC14DBR, hex inverter with Schmitt-trigger inputs, 2V to 5.5V, SSOP-14 (DB)"
+			(at 63.5 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5936a3fb-d3cc-4204-afa7-292cf55a19ca")
+		)
+		(pin "5"
+			(uuid "82726c96-93d0-4f03-8d38-c82b60e05ac9")
+		)
+		(pin "4"
+			(uuid "9ac311ea-bc7c-4019-b9be-e3804e9da233")
+		)
+		(pin "8"
+			(uuid "06387f73-9c37-4193-9171-1224da531155")
+		)
+		(pin "9"
+			(uuid "6c439787-3f7f-4611-a80c-37db3e9643ca")
+		)
+		(pin "6"
+			(uuid "5e6dbb4b-5be9-4694-9abb-223c21753f82")
+		)
+		(pin "2"
+			(uuid "00be9bcc-b3f7-4e95-b231-d68e30f288c4")
+		)
+		(pin "1"
+			(uuid "d23ffb74-cc86-416e-af8e-271596b8da84")
+		)
+		(pin "11"
+			(uuid "90c364f7-068c-423e-854c-a0099b13f69d")
+		)
+		(pin "10"
+			(uuid "f805f09f-286b-4067-b0ea-170a7d2e444b")
+		)
+		(pin "14"
+			(uuid "854e0159-be38-4b6b-b827-2c6132115822")
+		)
+		(pin "12"
+			(uuid "6afe8a9c-e451-4ea7-b56f-aa6e9b0892ed")
+		)
+		(pin "13"
+			(uuid "b129f8aa-ca75-4bb9-90ff-f48f54d002aa")
+		)
+		(pin "7"
+			(uuid "8fd5ab7c-9a6d-43ab-9a0b-9ab104fba45c")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U10")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bspd:GND_Earth")
-		(at 60.96 228.6 0)
+		(at 52.07 307.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30851,7 +31417,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c04e1e2-6adc-4cfd-90c3-80046f1a8696")
 		(property "Reference" "#PWR098"
-			(at 60.96 234.95 0)
+			(at 52.07 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30862,7 +31428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 233.68 0)
+			(at 52.07 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30873,7 +31439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 228.6 0)
+			(at 52.07 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30884,7 +31450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 228.6 0)
+			(at 52.07 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30895,7 +31461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\""
-			(at 60.96 228.6 0)
+			(at 52.07 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30913,6 +31479,122 @@
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "#PWR098")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bspd:SN74AHC14DBR")
+		(at 130.81 242.57 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cfcded4-a452-470e-aef7-348336659871")
+		(property "Reference" "U10"
+			(at 130.81 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC14DBR"
+			(at 130.81 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bspd:SN74AHC14DBR"
+			(at 130.81 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74ahc14"
+			(at 130.81 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Texas Instruments SN74AHC14DBR, hex inverter with Schmitt-trigger inputs, 2V to 5.5V, SSOP-14 (DB)"
+			(at 130.81 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5936a3fb-d3cc-4204-afa7-292cf55a19ca")
+		)
+		(pin "5"
+			(uuid "82726c96-93d0-4f03-8d38-c82b60e05ac9")
+		)
+		(pin "4"
+			(uuid "9ac311ea-bc7c-4019-b9be-e3804e9da233")
+		)
+		(pin "8"
+			(uuid "06387f73-9c37-4193-9171-1224da531155")
+		)
+		(pin "9"
+			(uuid "6c439787-3f7f-4611-a80c-37db3e9643ca")
+		)
+		(pin "6"
+			(uuid "5e6dbb4b-5be9-4694-9abb-223c21753f82")
+		)
+		(pin "2"
+			(uuid "00be9bcc-b3f7-4e95-b231-d68e30f288c4")
+		)
+		(pin "1"
+			(uuid "d23ffb74-cc86-416e-af8e-271596b8da84")
+		)
+		(pin "11"
+			(uuid "90c364f7-068c-423e-854c-a0099b13f69d")
+		)
+		(pin "10"
+			(uuid "f805f09f-286b-4067-b0ea-170a7d2e444b")
+		)
+		(pin "14"
+			(uuid "854e0159-be38-4b6b-b827-2c6132115822")
+		)
+		(pin "12"
+			(uuid "6afe8a9c-e451-4ea7-b56f-aa6e9b0892ed")
+		)
+		(pin "13"
+			(uuid "b129f8aa-ca75-4bb9-90ff-f48f54d002aa")
+		)
+		(pin "7"
+			(uuid "8fd5ab7c-9a6d-43ab-9a0b-9ab104fba45c")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U10")
+					(unit 5)
 				)
 			)
 		)
@@ -31242,137 +31924,6 @@
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "#PWR05")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bspd:SN74LVC3G14DCUR")
-		(at 132.08 261.62 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "805b4dbb-46f9-4f51-87eb-9239b5de8ee4")
-		(property "Reference" "U9"
-			(at 130.81 250.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC3G14DCUR"
-			(at 130.81 252.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:SN74LVC3G14DCUR"
-			(at 132.08 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc3g14"
-			(at 132.08 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Triple Schmitt-trigger inverter, 1.65V-5.5V, VSSOP-8 (DCU)"
-			(at 132.08 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 132.08 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC3G14DCUR"
-			(at 132.08 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98856"
-			(at 132.08 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "893c1694-093c-44ba-861b-a722e72a3bfe")
-		)
-		(pin "8"
-			(uuid "78f7db7d-197d-4aaf-8192-9c39d8f00a2a")
-		)
-		(pin "4"
-			(uuid "17e7584f-8b84-41b3-a9f9-6a25e9800487")
-		)
-		(pin "7"
-			(uuid "dbc12ee8-e743-4776-87e8-d675dd770b18")
-		)
-		(pin "5"
-			(uuid "d7740ab9-73a1-4d7c-b748-5575ee302717")
-		)
-		(pin "3"
-			(uuid "dbd00907-3879-4b48-a01d-365ebd8644eb")
-		)
-		(pin "6"
-			(uuid "b57cef59-992c-42f0-a603-f4d7a53debb9")
-		)
-		(pin "2"
-			(uuid "bb31f2b7-7a01-4942-b3bb-fdac71643927")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U9")
-					(unit 3)
 				)
 			)
 		)
@@ -32445,6 +32996,122 @@
 		)
 	)
 	(symbol
+		(lib_id "bspd:SN74AHC14DBR")
+		(at 129.54 261.62 0)
+		(unit 6)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9816ec8e-61e3-4842-8240-7436e4c4189d")
+		(property "Reference" "U10"
+			(at 129.54 252.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC14DBR"
+			(at 129.54 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bspd:SN74AHC14DBR"
+			(at 129.54 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74ahc14"
+			(at 129.54 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Texas Instruments SN74AHC14DBR, hex inverter with Schmitt-trigger inputs, 2V to 5.5V, SSOP-14 (DB)"
+			(at 129.54 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5936a3fb-d3cc-4204-afa7-292cf55a19ca")
+		)
+		(pin "5"
+			(uuid "82726c96-93d0-4f03-8d38-c82b60e05ac9")
+		)
+		(pin "4"
+			(uuid "9ac311ea-bc7c-4019-b9be-e3804e9da233")
+		)
+		(pin "8"
+			(uuid "06387f73-9c37-4193-9171-1224da531155")
+		)
+		(pin "9"
+			(uuid "6c439787-3f7f-4611-a80c-37db3e9643ca")
+		)
+		(pin "6"
+			(uuid "5e6dbb4b-5be9-4694-9abb-223c21753f82")
+		)
+		(pin "2"
+			(uuid "00be9bcc-b3f7-4e95-b231-d68e30f288c4")
+		)
+		(pin "1"
+			(uuid "d23ffb74-cc86-416e-af8e-271596b8da84")
+		)
+		(pin "11"
+			(uuid "90c364f7-068c-423e-854c-a0099b13f69d")
+		)
+		(pin "10"
+			(uuid "f805f09f-286b-4067-b0ea-170a7d2e444b")
+		)
+		(pin "14"
+			(uuid "854e0159-be38-4b6b-b827-2c6132115822")
+		)
+		(pin "12"
+			(uuid "6afe8a9c-e451-4ea7-b56f-aa6e9b0892ed")
+		)
+		(pin "13"
+			(uuid "b129f8aa-ca75-4bb9-90ff-f48f54d002aa")
+		)
+		(pin "7"
+			(uuid "8fd5ab7c-9a6d-43ab-9a0b-9ab104fba45c")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U10")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 53.34 173.99 0)
 		(mirror x)
@@ -33407,136 +34074,6 @@
 			(project "bspd"
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "RV3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bspd:SN74LVC3G14DCUR")
-		(at 132.08 219.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a3693667-60eb-494f-b077-fb8230e442b4")
-		(property "Reference" "U9"
-			(at 129.794 211.582 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC3G14DCUR"
-			(at 137.16 209.296 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:SN74LVC3G14DCUR"
-			(at 132.08 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc3g14"
-			(at 132.08 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Triple Schmitt-trigger inverter, 1.65V-5.5V, VSSOP-8 (DCU)"
-			(at 132.08 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 132.08 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC3G14DCUR"
-			(at 132.08 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98856"
-			(at 132.08 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "893c1694-093c-44ba-861b-a722e72a3bff")
-		)
-		(pin "8"
-			(uuid "78f7db7d-197d-4aaf-8192-9c39d8f00a2b")
-		)
-		(pin "4"
-			(uuid "17e7584f-8b84-41b3-a9f9-6a25e9800488")
-		)
-		(pin "7"
-			(uuid "dbc12ee8-e743-4776-87e8-d675dd770b19")
-		)
-		(pin "5"
-			(uuid "d7740ab9-73a1-4d7c-b748-5575ee302718")
-		)
-		(pin "3"
-			(uuid "dbd00907-3879-4b48-a01d-365ebd8644ec")
-		)
-		(pin "6"
-			(uuid "b57cef59-992c-42f0-a603-f4d7a53debba")
-		)
-		(pin "2"
-			(uuid "bb31f2b7-7a01-4942-b3bb-fdac71643928")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -36683,215 +37220,6 @@
 	)
 	(symbol
 		(lib_id "bspd:GND_Earth")
-		(at 127 229.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "befd5d14-1d24-437e-9b66-b0f8a4aa7471")
-		(property "Reference" "#PWR0100"
-			(at 127 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\""
-			(at 127 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "67f9cbb4-5670-4ece-9151-6baf3d58ba1e")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bspd:SN74LVC3G14DCUR")
-		(at 64.77 242.57 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bf59d66b-a006-45ba-9fa6-d8409ae24530")
-		(property "Reference" "U8"
-			(at 64.008 234.442 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC3G14DCUR"
-			(at 70.866 236.982 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:SN74LVC3G14DCUR"
-			(at 64.77 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc3g14"
-			(at 64.77 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Triple Schmitt-trigger inverter, 1.65V-5.5V, VSSOP-8 (DCU)"
-			(at 64.77 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 64.77 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC3G14DCUR"
-			(at 64.77 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98856"
-			(at 64.77 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "2f3b98bd-e3fc-4e44-886e-5e36386924d9")
-		)
-		(pin "1"
-			(uuid "68439801-e198-4c31-a25c-f6bca14d7a84")
-		)
-		(pin "3"
-			(uuid "5fcc7e4e-bef2-43e6-8ed5-9f01ff97cb57")
-		)
-		(pin "6"
-			(uuid "61be0d0c-6913-40e9-aa75-be5b83b6df22")
-		)
-		(pin "2"
-			(uuid "cdc0e4d4-fb0f-453b-85c7-8006f0312ce1")
-		)
-		(pin "4"
-			(uuid "cdf1d037-74f1-4ae1-a3fb-a4d72eef2f02")
-		)
-		(pin "8"
-			(uuid "eb722654-902e-4761-b2ba-8d25b951ff17")
-		)
-		(pin "7"
-			(uuid "d507dcd5-151e-408d-ac95-df8bbd2fba3a")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U8")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bspd:GND_Earth")
 		(at 358.14 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -37810,137 +38138,6 @@
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "#PWR064")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bspd:SN74LVC3G14DCUR")
-		(at 132.08 242.57 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8854869-d598-429a-b9ac-1d6eebc04c16")
-		(property "Reference" "U9"
-			(at 130.81 231.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC3G14DCUR"
-			(at 130.81 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:SN74LVC3G14DCUR"
-			(at 132.08 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc3g14"
-			(at 132.08 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Triple Schmitt-trigger inverter, 1.65V-5.5V, VSSOP-8 (DCU)"
-			(at 132.08 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 132.08 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC3G14DCUR"
-			(at 132.08 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98856"
-			(at 132.08 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "893c1694-093c-44ba-861b-a722e72a3c00")
-		)
-		(pin "8"
-			(uuid "78f7db7d-197d-4aaf-8192-9c39d8f00a2c")
-		)
-		(pin "4"
-			(uuid "17e7584f-8b84-41b3-a9f9-6a25e9800489")
-		)
-		(pin "7"
-			(uuid "dbc12ee8-e743-4776-87e8-d675dd770b1a")
-		)
-		(pin "5"
-			(uuid "d7740ab9-73a1-4d7c-b748-5575ee302719")
-		)
-		(pin "3"
-			(uuid "dbd00907-3879-4b48-a01d-365ebd8644ed")
-		)
-		(pin "6"
-			(uuid "b57cef59-992c-42f0-a603-f4d7a53debbb")
-		)
-		(pin "2"
-			(uuid "bb31f2b7-7a01-4942-b3bb-fdac71643929")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U9")
-					(unit 2)
 				)
 			)
 		)
@@ -39631,136 +39828,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bspd:SN74LVC3G14DCUR")
-		(at 66.04 218.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e4c757a7-6bf7-461b-bd69-3b592c10e41b")
-		(property "Reference" "U8"
-			(at 67.818 211.836 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC3G14DCUR"
-			(at 74.676 213.868 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:SN74LVC3G14DCUR"
-			(at 66.04 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc3g14"
-			(at 66.04 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Triple Schmitt-trigger inverter, 1.65V-5.5V, VSSOP-8 (DCU)"
-			(at 66.04 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 66.04 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC3G14DCUR"
-			(at 66.04 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98856"
-			(at 66.04 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "2f3b98bd-e3fc-4e44-886e-5e36386924da")
-		)
-		(pin "1"
-			(uuid "68439801-e198-4c31-a25c-f6bca14d7a85")
-		)
-		(pin "3"
-			(uuid "5fcc7e4e-bef2-43e6-8ed5-9f01ff97cb58")
-		)
-		(pin "6"
-			(uuid "61be0d0c-6913-40e9-aa75-be5b83b6df23")
-		)
-		(pin "2"
-			(uuid "cdc0e4d4-fb0f-453b-85c7-8006f0312ce2")
-		)
-		(pin "4"
-			(uuid "cdf1d037-74f1-4ae1-a3fb-a4d72eef2f03")
-		)
-		(pin "8"
-			(uuid "eb722654-902e-4761-b2ba-8d25b951ff18")
-		)
-		(pin "7"
-			(uuid "d507dcd5-151e-408d-ac95-df8bbd2fba3b")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 364.49 125.73 0)
 		(unit 1)
@@ -40481,6 +40548,124 @@
 		)
 	)
 	(symbol
+		(lib_id "bspd:SN74AHC14DBR")
+		(at 52.07 294.64 0)
+		(unit 7)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f26b330e-1d5e-4983-ae76-1b140916c7f9")
+		(property "Reference" "U10"
+			(at 58.42 293.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SN74AHC14DBR"
+			(at 58.42 295.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bspd:SN74AHC14DBR"
+			(at 52.07 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74ahc14"
+			(at 52.07 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Texas Instruments SN74AHC14DBR, hex inverter with Schmitt-trigger inputs, 2V to 5.5V, SSOP-14 (DB)"
+			(at 52.07 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5936a3fb-d3cc-4204-afa7-292cf55a19ca")
+		)
+		(pin "5"
+			(uuid "82726c96-93d0-4f03-8d38-c82b60e05ac9")
+		)
+		(pin "4"
+			(uuid "9ac311ea-bc7c-4019-b9be-e3804e9da233")
+		)
+		(pin "8"
+			(uuid "06387f73-9c37-4193-9171-1224da531155")
+		)
+		(pin "9"
+			(uuid "6c439787-3f7f-4611-a80c-37db3e9643ca")
+		)
+		(pin "6"
+			(uuid "5e6dbb4b-5be9-4694-9abb-223c21753f82")
+		)
+		(pin "2"
+			(uuid "00be9bcc-b3f7-4e95-b231-d68e30f288c4")
+		)
+		(pin "1"
+			(uuid "d23ffb74-cc86-416e-af8e-271596b8da84")
+		)
+		(pin "11"
+			(uuid "90c364f7-068c-423e-854c-a0099b13f69d")
+		)
+		(pin "10"
+			(uuid "f805f09f-286b-4067-b0ea-170a7d2e444b")
+		)
+		(pin "14"
+			(uuid "854e0159-be38-4b6b-b827-2c6132115822")
+		)
+		(pin "12"
+			(uuid "6afe8a9c-e451-4ea7-b56f-aa6e9b0892ed")
+		)
+		(pin "13"
+			(uuid "b129f8aa-ca75-4bb9-90ff-f48f54d002aa")
+		)
+		(pin "7"
+			(uuid "8fd5ab7c-9a6d-43ab-9a0b-9ab104fba45c")
+		)
+		(instances
+			(project "bspd"
+				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
+					(reference "U10")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 412.75 135.89 0)
 		(mirror x)
@@ -40840,136 +41025,6 @@
 				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
 					(reference "H1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bspd:SN74LVC3G14DCUR")
-		(at 66.04 262.89 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f722102f-4c98-4677-a8ba-9a3b1fd3fb58")
-		(property "Reference" "U8"
-			(at 65.278 254.508 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC3G14DCUR"
-			(at 72.644 256.794 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bspd:SN74LVC3G14DCUR"
-			(at 66.04 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc3g14"
-			(at 66.04 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Triple Schmitt-trigger inverter, 1.65V-5.5V, VSSOP-8 (DCU)"
-			(at 66.04 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 66.04 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SN74LVC3G14DCUR"
-			(at 66.04 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98856"
-			(at 66.04 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "2f3b98bd-e3fc-4e44-886e-5e36386924db")
-		)
-		(pin "1"
-			(uuid "68439801-e198-4c31-a25c-f6bca14d7a86")
-		)
-		(pin "3"
-			(uuid "5fcc7e4e-bef2-43e6-8ed5-9f01ff97cb59")
-		)
-		(pin "6"
-			(uuid "61be0d0c-6913-40e9-aa75-be5b83b6df24")
-		)
-		(pin "2"
-			(uuid "cdc0e4d4-fb0f-453b-85c7-8006f0312ce3")
-		)
-		(pin "4"
-			(uuid "cdf1d037-74f1-4ae1-a3fb-a4d72eef2f04")
-		)
-		(pin "8"
-			(uuid "eb722654-902e-4761-b2ba-8d25b951ff19")
-		)
-		(pin "7"
-			(uuid "d507dcd5-151e-408d-ac95-df8bbd2fba3c")
-		)
-		(instances
-			(project "bspd"
-				(path "/e8b8835b-5dd0-46e2-9a0c-fed9bbaa86de"
-					(reference "U8")
-					(unit 3)
 				)
 			)
 		)
